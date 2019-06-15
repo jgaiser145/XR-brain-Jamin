@@ -472,29 +472,3 @@ LogInit: Object subsystem initialized
 [2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x00000000D231A271 ntdll.dll!UnknownFunction []
 [2019.06.15-15.51.10:594][177]LogOutputDevice: Error: 
 [2019.06.15-15.51.10:604][177]LogStats:                SubmitErrorReport -  0.000 s
-[2019.06.15-15.51.11:031][177]LogStats:                    SendNewReport -  0.427 s
-[2019.06.15-15.51.11:031][177]LogStats:             FDebug::EnsureFailed -  0.764 s
-[2019.06.15-15.51.13:237][177]LogSlate: Window 'Save Level As' being destroyed
-[2019.06.15-15.51.13:455][190]SourceControl: fatal: /Temp: '/Temp' is outside repository
-[2019.06.15-15.51.19:921][440]LogSlate: Window 'Save Content' being destroyed
-[2019.06.15-15.51.20:094][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Xun/Sub_Xun" FILE="../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Xun/Sub_Xun.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.06.15-15.51.20:117][440]LogSavePackage: Save=9.35ms
-[2019.06.15-15.51.20:117][440]LogSavePackage: Moving '../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Sub_XunA51131FB45CA06136CA424966B55AB0E.tmp' to '../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Xun/Sub_Xun.umap'
-[2019.06.15-15.51.20:123][440]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Xun/Sub_Xun.umap
-[2019.06.15-15.51.20:269][440]LogFileHelpers: Saving map 'Sub_Xun' took 0.239
-[2019.06.15-15.51.27:070][440]LogSlate: Window 'Submit Files' being destroyed
-[2019.06.15-15.51.27:333][440]LogSourceControl: commit successful: [Xun_branch 4acfe6d] New sub level added
-[2019.06.15-15.51.27:392][440]SourceControl: [Xun_branch 4acfe6d] New sub level added
-[2019.06.15-15.51.27:392][440]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
-[2019.06.15-15.51.27:392][440]SourceControl:  create mode 100644 GFC2/GFC2Project/Content/Xun/Sub_Xun.umap
-[2019.06.15-15.51.27:401][440]SourceControl: Commited [Xun_branch 4acfe6d] New sub level added.
-[2019.06.15-15.51.31:355][671]SourceControl: fatal: /Temp: '/Temp' is outside repository
-[2019.06.15-15.51.34:901][671]LogSlate: Window 'Save Level As' being destroyed
-[2019.06.15-15.51.35:044][679]SourceControl: fatal: /Temp: '/Temp' is outside repository
-[2019.06.15-15.51.36:663][776]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.19/Engine/Content: 'C:/Program Files/Epic Games/UE_4.19/Engine/Content' is outside repository
-[2019.06.15-15.51.36:746][776]EditorErrors: Warning: No assets to check in!
-[2019.06.15-16.01.18:246][217]LogSavePackage: Save=30.40ms
-[2019.06.15-16.01.18:246][217]LogSavePackage: Moving '../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Untitled_1_Auto1090F1DDA42433D2CB145FCAE190604FB.tmp' to '../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
-[2019.06.15-16.01.18:248][217]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
-[2019.06.15-16.01.18:251][217]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.049
-[2019.06.15-16.01.18:251][217]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.049
