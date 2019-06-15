@@ -1,4 +1,4 @@
-﻿Log file open, 06/15/19 12:48:22
+﻿Log file open, 06/15/19 14:13:54
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GFC2Project
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(597075847) SRandInit(597075847).
+LogInit: Display: RandInit(1176960194) SRandInit(1176960194).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.788968
+LogStats: Stats thread started at 3.156421
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  1.358s to configure plugins.
+LogStreaming: Display: Took  3.498s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -188,8 +188,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am aballinas (149.31.202.203:0)
-LogHMD: Failed initializing OVRPlugin 1.21.0
+LogInit: WinSock: I am PFINNCH14 (149.31.197.56:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -218,256 +217,579 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.014s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.06.15-16.48.24:531][  0]LogInit: Selected Device Profile: [Windows]
-[2019.06.15-16.48.24:531][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.06.15-16.48.24:560][  0]LogInit: Computer: ABALLINAS
-[2019.06.15-16.48.24:560][  0]LogInit: User: Anthony
-[2019.06.15-16.48.24:560][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.06.15-16.48.24:560][  0]LogInit: High frequency timer resolution =2.648438 MHz
-[2019.06.15-16.48.24:562][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.06.15-16.48.24:562][  0]LogMemory: Platform Memory Stats for Windows
-[2019.06.15-16.48.24:562][  0]LogMemory: Process Physical Memory: 276.34 MB used, 276.34 MB peak
-[2019.06.15-16.48.24:562][  0]LogMemory: Process Virtual Memory: 267.90 MB used, 267.90 MB peak
-[2019.06.15-16.48.24:562][  0]LogMemory: Physical Memory: 9973.68 MB used,  22658.84 MB free, 32632.52 MB total
-[2019.06.15-16.48.24:562][  0]LogMemory: Virtual Memory: 726.37 MB used,  22658.84 MB free, 134217728.00 MB total
-[2019.06.15-16.48.24:788][  0]LogInit: Using OS detected language (en-US).
-[2019.06.15-16.48.24:788][  0]LogInit: Using OS detected locale (en-US).
-[2019.06.15-16.48.24:839][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.06.15-16.48.25:299][  0]LogStreaming: Display: Took  0.511s to EndInitTextLocalization.
-[2019.06.15-16.48.25:412][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.06.15-16.48.25:412][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.06.15-16.48.27:202][  0]LogD3D11RHI: D3D11 adapters:
-[2019.06.15-16.48.27:328][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M' (Feature Level 11_0)
-[2019.06.15-16.48.27:329][  0]LogD3D11RHI:       8144/0/16316 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.06.15-16.48.27:349][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2019.06.15-16.48.27:349][  0]LogD3D11RHI:       128/0/16316 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.06.15-16.48.27:352][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.06.15-16.48.27:352][  0]LogD3D11RHI:       0/0/16316 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.06.15-16.48.27:352][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.06.15-16.48.27:363][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.06.15-16.48.27:363][  0]LogD3D11RHI:     GPU DeviceId: 0x13d7 (for the marketing name, search the web for "GPU Device Id")
-[2019.06.15-16.48.27:363][  0]LogWindows: EnumDisplayDevices:
-[2019.06.15-16.48.27:363][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2019.06.15-16.48.27:364][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.06.15-16.48.27:364][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.06.15-16.48.27:364][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
-[2019.06.15-16.48.27:364][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.06.15-16.48.27:364][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M
-[2019.06.15-16.48.27:364][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.06.15-16.48.27:364][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.06.15-16.48.27:365][  0]LogRHI: Texture pool is 5701 MB (70% of 8144 MB)
-[2019.06.15-16.48.27:409][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.06.15-16.48.27:409][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.06.15-16.48.27:409][  0]LogD3D11RHI: Async texture creation enabled
-[2019.06.15-16.48.27:451][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.06.15-16.48.27:460][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Intermediate/Shaders/WorkingDirectory/17532/).
-[2019.06.15-16.48.27:460][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Anthony/AppData/Local/Temp/UnrealShaderWorkingDir/69F74219468BD6ECF33EE7B3628D7132/'.
-[2019.06.15-16.48.27:732][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.06.15-16.48.27:745][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.06.15-16.48.27:759][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.06.15-16.48.27:773][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.06.15-16.48.27:790][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.06.15-16.48.27:804][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.06.15-16.48.27:818][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.06.15-16.48.27:832][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.06.15-16.48.27:840][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.06.15-16.48.27:853][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.06.15-16.48.27:866][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.06.15-16.48.27:880][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.06.15-16.48.27:892][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2019.06.15-16.48.27:905][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.06.15-16.48.27:918][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.06.15-16.48.27:944][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.06.15-16.48.27:944][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.06.15-16.48.27:960][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.15-16.48.27:963][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.06.15-16.48.28:008][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.06.15-16.48.28:019][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.06.15-16.48.28:032][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.06.15-16.48.28:044][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.06.15-16.48.28:057][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.06.15-16.48.28:074][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.06.15-16.48.28:074][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.06.15-16.48.28:299][  0]LogXGEController: Cleaning working directory: C:/Users/Anthony/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.06.15-16.48.28:299][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.06.15-16.48.28:300][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.06.15-16.48.28:300][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.06.15-16.48.29:908][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.06.15-16.48.30:083][  0]LogDerivedDataCache: Loaded boot cache 0.18s 74MB C:/Users/Anthony/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.06.15-16.48.30:084][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Anthony/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2019.06.15-16.48.30:084][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.06.15-16.48.30:084][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.06.15-16.48.30:084][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.06.15-16.48.30:084][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.06.15-16.48.30:108][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.06.15-16.48.30:121][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Anthony/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.06.15-16.48.30:121][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.06.15-16.48.30:121][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.06.15-16.48.30:135][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.06.15-16.48.30:142][  0]LogSlate: Using Freetype 2.6.0
-[2019.06.15-16.48.30:156][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.06.15-16.48.30:156][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.06.15-16.48.30:674][  0]LogAssetRegistry: FAssetRegistry took 0.0303 seconds to start up
-[2019.06.15-16.48.31:184][  0]LogInit: Selected Device Profile: [Windows]
-[2019.06.15-16.48.31:543][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.06.15-16.48.31:549][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.06.15-16.48.31:550][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.06.15-16.48.31:550][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.06.15-16.48.31:550][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.06.15-16.48.31:550][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.06.15-16.48.31:640][  0]LogNetVersion: GFC2Project , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1727949735)
-[2019.06.15-16.48.32:828][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.193181 seconds
-[2019.06.15-16.48.32:834][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2019.06.15-16.48.32:834][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2019.06.15-16.48.32:834][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.06.15-16.48.37:134][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.06.15-16.48.37:165][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.06.15-16.48.37:626][  0]SourceControl: Source control is disabled
-[2019.06.15-16.48.39:056][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.06.15-16.48.39:233][  0]LogOcInput: OculusInput pre-init called
-[2019.06.15-16.48.39:391][  0]LogEngine: Initializing Engine...
-[2019.06.15-16.48.39:399][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.06.15-16.48.39:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.06.15-16.48.39:405][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.06.15-16.48.39:707][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.06.15-16.48.39:756][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.15-16.48.39:817][  0]LogInit: FAudioDevice initialized.
-[2019.06.15-16.48.39:928][  0]LogDerivedDataCache: Saved boot cache 0.11s 74MB C:/Users/Anthony/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.06.15-16.48.39:941][  0]LogInit: Texture streaming: Enabled
-[2019.06.15-16.48.39:969][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.06.15-16.48.40:003][  0]LogInit: Transaction tracking system initialized
-[2019.06.15-16.48.40:073][  0]BlueprintLog: New page: Editor Load
-[2019.06.15-16.48.40:280][  0]LocalizationService: Localization service is disabled
-[2019.06.15-16.48.40:513][  0]LogConsoleResponse: Display: 
-[2019.06.15-16.48.40:714][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.06.15-16.48.40:714][  0]LogCook: Display: Mobile HDR setting 0
-[2019.06.15-16.48.40:715][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.06.15-16.48.40:715][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.06.15-16.48.40:715][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.06.15-16.48.41:218][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/' took 0.02s
-[2019.06.15-16.48.41:218][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.06.15-16.48.41:220][  0]LightingResults: New page: Lighting Build
-[2019.06.15-16.48.41:235][  0]MapCheck: New page: Map Check
-[2019.06.15-16.48.41:235][  0]LightingResults: New page: Lighting Build
-[2019.06.15-16.48.41:528][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.06.15-16.48.41:563][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.06.15-16.48.41:579][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.06.15-16.48.41:633][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.849ms to complete.
-[2019.06.15-16.48.41:634][  0]LogFileHelpers: Loading map 'Template_Default' took 0.416
-[2019.06.15-16.48.42:011][  0]LogCollectionManager: Loaded 0 collections in 0.001698 seconds
-[2019.06.15-16.48.42:098][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Collections/' took 0.01s
-[2019.06.15-16.48.42:098][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Developers/Anthony/Collections/' took 0.01s
-[2019.06.15-16.48.42:098][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Collections/' took 0.01s
-[2019.06.15-16.48.42:098][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.06.15-16.48.42:108][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2452 classes and 558 folders.
-[2019.06.15-16.48.42:131][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.06.15-16.48.42:459][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.06.15-16.48.42:475][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.06.15-16.48.42:622][  0]LogSlate: Took 0.008396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.06.15-16.48.42:639][  0]LogSlate: Took 0.007906 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.06.15-16.48.42:667][  0]LogSlate: Took 0.014641 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.06.15-16.48.42:919][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
-[2019.06.15-16.48.43:131][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.06.15-16.48.43:168][  0]LogSlate: Window 'Tutorials' being destroyed
-[2019.06.15-16.48.43:204][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.06.15-16.48.43:205][  0]LogLoad: (Engine Initialization) Total time: 23.41 seconds
-[2019.06.15-16.48.43:205][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.06.15-16.48.43:267][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.06.15-16.48.43:307][  0]LogSlate: Took 0.004886 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.06.15-16.48.43:347][  1]LogAssetRegistry: Asset discovery search completed in 12.6971 seconds
-[2019.06.15-16.48.43:351][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.06.15-16.48.43:351][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000641 seconds (updated 0 objects)
-[2019.06.15-16.49.01:129][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.15-16.49.15:584][831]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.06.15-16.49.15:609][831]LogAIModule: Creating AISystem for world Map1
-[2019.06.15-16.49.15:628][831]Cmd: MAP LOAD FILE="../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.06.15-16.49.15:629][831]LightingResults: New page: Lighting Build
-[2019.06.15-16.49.15:629][831]LoadErrors: New page: Loading map: Map1.umap
-[2019.06.15-16.49.15:632][831]MapCheck: New page: Map Check
-[2019.06.15-16.49.15:632][831]LightingResults: New page: Lighting Build
-[2019.06.15-16.49.15:653][831]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.06.15-16.49.15:686][831]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.06.15-16.49.15:743][831]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.915ms to complete.
-[2019.06.15-16.49.15:743][831]LogFileHelpers: Loading map 'Map1' took 0.117
-[2019.06.15-16.49.26:793][141]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
-[2019.06.15-16.49.32:480][818]LogSlate: Window 'Levels' being destroyed
-[2019.06.15-16.50.00:227][264]LogSlate: Window 'Save Level As' being destroyed
-[2019.06.15-16.50.00:336][264]LogSavePackage: Save=9.97ms
-[2019.06.15-16.50.00:336][264]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sub_Anthony7814C9D94E0A3EE16991A1847907717E.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Anthony.umap'
-[2019.06.15-16.50.00:340][264]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Anthony.umap
-[2019.06.15-16.50.00:511][264]LogFileHelpers: Saving map 'sub_Anthony' took 0.276
-[2019.06.15-16.50.27:278][968]LogSlate: Window 'Save Level As' being destroyed
-[2019.06.15-16.50.27:371][968]LogSavePackage: Save=7.97ms
-[2019.06.15-16.50.27:371][968]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sub_Sound311572CF4386426E56F2D59A6F130450.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Sound.umap'
-[2019.06.15-16.50.27:373][968]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Sound.umap
-[2019.06.15-16.50.27:531][968]LogFileHelpers: Saving map 'sub_Sound' took 0.248
-[2019.06.15-16.50.43:336][753]LogSlate: Window 'Save Level As' being destroyed
-[2019.06.15-16.50.43:433][753]LogSavePackage: Save=7.35ms
-[2019.06.15-16.50.43:433][753]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sub_Peter47B5A9C044BECEE09D854BA2FF8DE5A4.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Peter.umap'
-[2019.06.15-16.50.43:436][753]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Peter.umap
-[2019.06.15-16.50.43:606][753]LogFileHelpers: Saving map 'sub_Peter' took 0.264
-[2019.06.15-16.51.01:504][267]LogSlate: Window 'Save Level As' being destroyed
-[2019.06.15-16.51.01:598][267]LogSavePackage: Save=6.99ms
-[2019.06.15-16.51.01:598][267]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sun_Xun53A8BB9E46FE92292B2C33B06A753FC2.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sun_Xun.umap'
-[2019.06.15-16.51.01:601][267]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sun_Xun.umap
-[2019.06.15-16.51.01:768][267]LogFileHelpers: Saving map 'sun_Xun' took 0.258
-[2019.06.15-16.51.16:670][955]LogSavePackage: Save=7.38ms
-[2019.06.15-16.51.16:670][955]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sub_XunF5FAAA884E3E38E4C06ADF84D240383F.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Xun.umap'
-[2019.06.15-16.51.16:679][955]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Xun.umap
-[2019.06.15-16.51.16:839][955]LogFileHelpers: Saving map 'sub_Xun' took 0.244
-[2019.06.15-16.51.17:289][955]SourceControl: rm 'GFC2/GFC2Project/Content/Maps/sun_Xun.umap'
-[2019.06.15-16.51.28:991][322]LogSavePackage: Save=8.60ms
-[2019.06.15-16.51.28:991][322]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sub_AnthonyC2D6D2A044EF34FD443A499B577C2658.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Anthony.umap'
-[2019.06.15-16.51.28:993][322]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Anthony.umap
-[2019.06.15-16.51.32:813][758]LogSavePackage: Save=7.09ms
-[2019.06.15-16.51.32:813][758]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sub_PeterCCBCB7834A563E0FBC7E01AED28E3A33.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Peter.umap'
-[2019.06.15-16.51.32:816][758]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Peter.umap
-[2019.06.15-16.51.36:450][173]LogSavePackage: Save=10.41ms
-[2019.06.15-16.51.36:450][173]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sub_SoundA490B758448AF68F0A53559D397844E5.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Sound.umap'
-[2019.06.15-16.51.36:453][173]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Sound.umap
-[2019.06.15-16.51.41:116][711]LogSavePackage: Save=7.27ms
-[2019.06.15-16.51.41:116][711]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sub_XunE6327B924F7B218D59ACA3B08F5D03A6.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Xun.umap'
-[2019.06.15-16.51.41:118][711]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Xun.umap
-[2019.06.15-16.51.45:915][270]LogSavePackage: Save=8.20ms
-[2019.06.15-16.51.45:915][270]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sub_Xun1AC0627B4475F12CB765358AEF5F1A7F.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Xun.umap'
-[2019.06.15-16.51.45:922][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Xun.umap
-[2019.06.15-16.51.47:248][401]LogSavePackage: Save=8.36ms
-[2019.06.15-16.51.47:249][401]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sub_Sound15C321F641E782B69E2CFFB990B4044C.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Sound.umap'
-[2019.06.15-16.51.47:255][401]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Sound.umap
-[2019.06.15-16.51.47:258][401]LogFileHelpers: Saving map 'sub_Sound' took 0.089
-[2019.06.15-16.51.48:272][495]LogSavePackage: Save=8.50ms
-[2019.06.15-16.51.48:272][495]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sub_Peter50BFBA0D46E14626B416A191B9C0E879.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Peter.umap'
-[2019.06.15-16.51.48:278][495]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Peter.umap
-[2019.06.15-16.51.48:282][495]LogFileHelpers: Saving map 'sub_Peter' took 0.091
-[2019.06.15-16.51.49:217][580]LogSavePackage: Save=8.26ms
-[2019.06.15-16.51.49:217][580]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sub_AnthonyCA0B91CE4B1E8A112C37CAB3803A0B43.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Anthony.umap'
-[2019.06.15-16.51.49:225][580]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Anthony.umap
-[2019.06.15-16.51.49:228][580]LogFileHelpers: Saving map 'sub_Anthony' took 0.092
-[2019.06.15-16.52.02:776][188]LogSavePackage: Save=9.25ms
-[2019.06.15-16.52.02:776][188]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sub_Anthony5193157C4BA246F07E0EF09E6C75D609.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Anthony.umap'
-[2019.06.15-16.52.02:779][188]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Maps/sub_Anthony.umap
-[2019.06.15-16.52.08:520][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map1" FILE="../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.06.15-16.52.08:566][851]LogSavePackage: Save=25.58ms
-[2019.06.15-16.52.08:566][851]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Map16596414346A4C6E875A0B78FA45EC432.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Map1.umap'
-[2019.06.15-16.52.08:572][851]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Map1.umap
-[2019.06.15-16.52.08:615][851]LogFileHelpers: Saving map 'Map1' took 0.152
-[2019.06.15-16.52.31:089][413]LogSavePackage: Save=37.62ms
-[2019.06.15-16.52.31:089][413]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/master_InvalidAssumptions57FB4DFC4AF45E8F9AB0E7935E572571.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/master_InvalidAssumptions.umap'
-[2019.06.15-16.52.31:094][413]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/master_InvalidAssumptions.umap
-[2019.06.15-16.52.31:341][413]LogFileHelpers: Saving map 'master_InvalidAssumptions' took 0.359
-[2019.06.15-16.52.31:344][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map1" FILE="../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Map1.umap" SILENT=true
-[2019.06.15-16.52.31:354][413]LogSavePackage: Save=5.09ms
-[2019.06.15-16.52.31:354][413]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Map1246C78DF4941419154C2A09AFB4C2747.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Map1.umap'
-[2019.06.15-16.52.31:361][413]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Map1.umap
-[2019.06.15-16.52.31:599][417]LogAssetRegistry: Warning: C:\Users\Anthony\Documents\GitHub\XR-brain-Jamin\GFC2\GFC2Project\Content\master_InvalidAssumptions.umap: Package has invalid export /Game/master_InvalidAssumptions_BuiltData.Map1_BuiltData, resave source package!
-[2019.06.15-16.52.31:653][423]SourceControl: fatal: /Game: '/Game' is outside repository
-[2019.06.15-16.52.34:338][713]LogSavePackage: Save=32.15ms
-[2019.06.15-16.52.34:338][713]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/master_InvalidAssumptionsD3194E1B410FEDFE9D1C68AE5492ED44.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/master_InvalidAssumptions.umap'
-[2019.06.15-16.52.34:341][713]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/master_InvalidAssumptions.umap
-[2019.06.15-16.52.34:363][713]LogFileHelpers: Saving map 'master_InvalidAssumptions' took 0.138
-[2019.06.15-16.52.34:368][713]LogAssetRegistry: Warning: C:\Users\Anthony\Documents\GitHub\XR-brain-Jamin\GFC2\GFC2Project\Content\master_InvalidAssumptions.umap: Package has invalid export /Game/master_InvalidAssumptions_BuiltData.Map1_BuiltData, resave source package!
+[2019.06.15-18.13.59:570][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.15-18.13.59:570][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.15-18.13.59:689][  0]LogInit: Computer: PFINNCH14
+[2019.06.15-18.13.59:689][  0]LogInit: User: peter
+[2019.06.15-18.13.59:689][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.06.15-18.13.59:689][  0]LogInit: High frequency timer resolution =2.835934 MHz
+[2019.06.15-18.13.59:689][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.06.15-18.13.59:689][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.15-18.13.59:689][  0]LogMemory: Process Physical Memory: 274.19 MB used, 274.19 MB peak
+[2019.06.15-18.13.59:689][  0]LogMemory: Process Virtual Memory: 264.70 MB used, 264.70 MB peak
+[2019.06.15-18.13.59:689][  0]LogMemory: Physical Memory: 7605.53 MB used,  25031.97 MB free, 32637.50 MB total
+[2019.06.15-18.13.59:689][  0]LogMemory: Virtual Memory: 4795.59 MB used,  25031.97 MB free, 134217728.00 MB total
+[2019.06.15-18.14.00:929][  0]LogInit: Using OS detected language (en-US).
+[2019.06.15-18.14.00:929][  0]LogInit: Using OS detected locale (en-US).
+[2019.06.15-18.14.01:174][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.06.15-18.14.02:013][  0]LogStreaming: Display: Took  1.084s to EndInitTextLocalization.
+[2019.06.15-18.14.02:085][  0]LogInit: Setting process to per monitor DPI aware
+[2019.06.15-18.14.02:558][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.15-18.14.02:558][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.15-18.14.04:693][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.15-18.14.04:813][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.06.15-18.14.04:813][  0]LogD3D11RHI:       8081/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.06.15-18.14.04:842][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.06.15-18.14.04:842][  0]LogD3D11RHI:       128/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.06.15-18.14.04:844][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.15-18.14.04:844][  0]LogD3D11RHI:       0/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.15-18.14.04:844][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.15-18.14.04:852][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.15-18.14.04:852][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2019.06.15-18.14.04:852][  0]LogWindows: EnumDisplayDevices:
+[2019.06.15-18.14.04:852][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.06.15-18.14.04:853][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.06.15-18.14.04:853][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.06.15-18.14.04:853][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.06.15-18.14.04:853][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.06.15-18.14.04:854][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.06.15-18.14.04:854][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.06.15-18.14.04:854][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.06.15-18.14.04:854][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.06.15-18.14.04:854][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.06.15-18.14.04:854][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.06.15-18.14.04:854][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2019.06.15-18.14.04:905][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.06.15-18.14.04:905][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.06.15-18.14.04:905][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.15-18.14.05:099][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.06.15-18.14.05:248][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Intermediate/Shaders/WorkingDirectory/19324/).
+[2019.06.15-18.14.05:253][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/peter/AppData/Local/Temp/UnrealShaderWorkingDir/A26F6FB7488030C33E3B5AA742965FB7/'.
+[2019.06.15-18.14.06:343][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.06.15-18.14.06:383][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.06.15-18.14.06:415][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.06.15-18.14.06:436][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.06.15-18.14.06:478][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.06.15-18.14.06:490][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.06.15-18.14.06:501][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.06.15-18.14.06:513][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.06.15-18.14.06:519][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.06.15-18.14.06:530][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.06.15-18.14.06:545][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.06.15-18.14.06:572][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.06.15-18.14.06:590][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.06.15-18.14.06:605][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.06.15-18.14.06:615][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.06.15-18.14.06:638][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.06.15-18.14.06:638][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.06.15-18.14.06:660][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.15-18.14.06:662][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.06.15-18.14.06:794][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.15-18.14.06:844][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.15-18.14.06:871][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.06.15-18.14.06:883][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.06.15-18.14.06:894][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.06.15-18.14.06:918][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.06.15-18.14.06:918][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.15-18.14.07:751][  0]LogXGEController: Cleaning working directory: C:/Users/peter/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.06.15-18.14.07:751][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.15-18.14.07:757][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.15-18.14.07:757][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.15-18.14.10:063][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.15-18.14.10:469][  0]LogDerivedDataCache: Loaded boot cache 0.40s 74MB C:/Users/peter/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.06.15-18.14.10:469][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/peter/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.06.15-18.14.10:469][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.15-18.14.10:469][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.15-18.14.10:469][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.15-18.14.10:469][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.15-18.14.10:580][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.15-18.14.10:601][  0]LogDerivedDataCache: Using Local data cache path C:/Users/peter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.15-18.14.10:601][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.15-18.14.10:601][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.15-18.14.10:643][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.15-18.14.10:680][  0]LogSlate: Using Freetype 2.6.0
+[2019.06.15-18.14.10:783][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.15-18.14.10:783][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.15-18.14.15:334][  0]LogAssetRegistry: FAssetRegistry took 0.0288 seconds to start up
+[2019.06.15-18.14.19:375][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.15-18.14.20:764][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.06.15-18.14.20:780][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.06.15-18.14.20:787][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.15-18.14.20:788][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.06.15-18.14.20:788][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.06.15-18.14.20:788][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.06.15-18.14.21:444][  0]LogNetVersion: GFC2Project , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1727949735)
+[2019.06.15-18.14.25:207][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.140832 seconds
+[2019.06.15-18.14.25:215][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.06.15-18.14.25:215][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2019.06.15-18.14.25:216][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.15-18.14.37:495][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.15-18.14.37:520][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.15-18.14.38:059][  0]SourceControl: Source control is disabled
+[2019.06.15-18.14.39:495][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.15-18.14.39:647][  0]LogOcInput: OculusInput pre-init called
+[2019.06.15-18.14.40:059][  0]LogEngine: Initializing Engine...
+[2019.06.15-18.14.40:070][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.15-18.14.40:088][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.15-18.14.40:089][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.15-18.14.40:999][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.15-18.14.41:140][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.06.15-18.14.41:167][  0]LogInit: FAudioDevice initialized.
+[2019.06.15-18.14.41:257][  0]LogDerivedDataCache: Saved boot cache 0.09s 74MB C:/Users/peter/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.06.15-18.14.41:285][  0]LogInit: Texture streaming: Enabled
+[2019.06.15-18.14.41:332][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.15-18.14.41:412][  0]LogInit: Transaction tracking system initialized
+[2019.06.15-18.14.41:732][  0]BlueprintLog: New page: Editor Load
+[2019.06.15-18.14.42:618][  0]LocalizationService: Localization service is disabled
+[2019.06.15-18.14.43:030][  0]LogConsoleResponse: Display: 
+[2019.06.15-18.14.44:726][  0]LogFileCache: Scanning file cache for directory 'D:/dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/' took 0.02s
+[2019.06.15-18.14.44:726][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.15-18.14.44:726][  0]LogCook: Display: Mobile HDR setting 0
+[2019.06.15-18.14.44:726][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.06.15-18.14.44:726][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.15-18.14.44:726][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.15-18.14.46:043][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.15-18.14.46:083][  0]LightingResults: New page: Lighting Build
+[2019.06.15-18.14.46:158][  0]MapCheck: New page: Map Check
+[2019.06.15-18.14.46:158][  0]LightingResults: New page: Lighting Build
+[2019.06.15-18.14.47:396][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.06.15-18.14.47:742][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.15-18.14.47:831][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.15-18.14.47:876][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.073ms to complete.
+[2019.06.15-18.14.47:877][  0]LogFileHelpers: Loading map 'Template_Default' took 1.850
+[2019.06.15-18.14.48:904][  0]LogCollectionManager: Loaded 0 collections in 0.001229 seconds
+[2019.06.15-18.14.49:009][  0]LogFileCache: Scanning file cache for directory 'D:/dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Saved/Collections/' took 0.01s
+[2019.06.15-18.14.49:009][  0]LogFileCache: Scanning file cache for directory 'D:/dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Developers/peter/Collections/' took 0.01s
+[2019.06.15-18.14.49:009][  0]LogFileCache: Scanning file cache for directory 'D:/dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Collections/' took 0.01s
+[2019.06.15-18.14.49:010][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.06.15-18.14.49:020][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2452 classes and 558 folders.
+[2019.06.15-18.14.49:071][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.06.15-18.14.51:211][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.15-18.14.51:245][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.06.15-18.14.51:362][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0008 seconds. Added 2 classes and 3 folders.
+[2019.06.15-18.14.51:853][  0]LogSlate: Took 0.022309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.15-18.14.51:879][  0]LogSlate: Took 0.023375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.15-18.14.51:937][  0]LogSlate: Took 0.019143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.15-18.14.52:296][  0]LogRenderer: Reallocating scene render targets to support 784x436 Format 10 NumSamples 1 (Frame:1).
+[2019.06.15-18.14.52:684][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.15-18.14.52:684][  0]LogLoad: (Engine Initialization) Total time: 71.49 seconds
+[2019.06.15-18.14.52:684][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.15-18.14.52:708][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.06.15-18.14.52:777][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.06.15-18.14.52:976][  1]LogAssetRegistry: Asset discovery search completed in 37.6653 seconds
+[2019.06.15-18.14.52:983][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.06.15-18.14.52:983][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
+[2019.06.15-18.14.57:013][223]LogSlate: Took 0.018381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.15-18.21.03:004][157]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-18.21.03:154][157]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017251d8a720, Size=8, Default__Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.03:159][157]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017251d8a720, Size=8
+[2019.06.15-18.21.03:159][157]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017251d8a720, Size=8, Default__Pyramid_Blueprint_C Function /Engine/Transient.REINST_Pyramid_Blueprint_C_5:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.03:162][157]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017251d8a790, Size=8, Default__Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.07:005][372]LogSlate: Took 0.004444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.15-18.21.07:708][372]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 116 classes and 0 folders.
+[2019.06.15-18.21.08:141][372]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017268d72028, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.06.15-18.21.08:141][372]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017268d72020, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.06.15-18.21.09:063][372]LogSlate: Took 0.018235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.15-18.21.09:652][373]LogSlate: Took 0.016896 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.06.15-18.21.28:032][460]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017273c97c98, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.SKEL_Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.30:347][582]LogSlate: Took 0.040147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.06.15-18.21.31:753][664]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017273c97c98, Size=4
+[2019.06.15-18.21.31:753][664]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017271cddf00, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pyramid_Blueprint_C_21:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.31:756][664]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017271cde1e8, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.SKEL_Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.34:105][801]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017271cde1e8, Size=4
+[2019.06.15-18.21.34:105][801]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017273c953b0, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pyramid_Blueprint_C_23:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.34:107][801]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017273c94468, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.SKEL_Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.37:420][997]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017273c94468, Size=4
+[2019.06.15-18.21.37:420][997]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017271cdd8f0, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pyramid_Blueprint_C_25:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.37:421][997]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017271cdd8f8, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.SKEL_Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.39:815][138]BlueprintLog: New page: Compile Pyramid_Blueprint
+[2019.06.15-18.21.39:820][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017271cdd8f8, Size=4
+[2019.06.15-18.21.39:820][138]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017273c95738, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pyramid_Blueprint_C_27:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.39:825][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017251d8a790, Size=8
+[2019.06.15-18.21.39:825][138]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017273c95b40, Size=8, Pyramid_Blueprint_C_2 Function /Engine/Transient.REINST_Pyramid_Blueprint_C_29:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.39:827][138]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017273c97930, Size=8, Default__Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.40:134][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017251d8a720, Size=8
+[2019.06.15-18.21.40:134][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017273c95738, Size=4
+[2019.06.15-18.21.47:448][571]LogUObjectGlobals: Created PersistentFrame Addr=0x000001726a9045d8, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.SKEL_Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.49:731][705]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001726a9045d8, Size=4
+[2019.06.15-18.21.49:731][705]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017273c95928, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pyramid_Blueprint_C_33:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.49:733][705]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017273c94c40, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.SKEL_Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.51:891][832]BlueprintLog: New page: Compile Pyramid_Blueprint
+[2019.06.15-18.21.51:896][832]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017273c94c40, Size=4
+[2019.06.15-18.21.51:896][832]LogUObjectGlobals: Created PersistentFrame Addr=0x000001726a905118, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pyramid_Blueprint_C_35:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.51:900][832]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017273c97930, Size=8
+[2019.06.15-18.21.51:900][832]LogUObjectGlobals: Created PersistentFrame Addr=0x000001726a904d20, Size=8, Default__Pyramid_Blueprint_C Function /Engine/Transient.REINST_Pyramid_Blueprint_C_37:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.51:902][832]LogUObjectGlobals: Created PersistentFrame Addr=0x000001726a9049a8, Size=8, Default__Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.21.52:093][832]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017273c95b40, Size=8
+[2019.06.15-18.21.52:093][832]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001726a905118, Size=4
+[2019.06.15-18.22.02:754][449]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017275d310d0, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.SKEL_Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.22.38:975][565]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017275d310d0, Size=4
+[2019.06.15-18.22.38:975][565]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017277207de0, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pyramid_Blueprint_C_41:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.22.38:977][565]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017277207770, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.SKEL_Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.23.24:204][202]LogSlate: Took 0.325609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.06.15-18.23.47:402][573]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017277207770, Size=4
+[2019.06.15-18.23.47:402][573]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017276068f28, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pyramid_Blueprint_C_43:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.23.47:403][573]LogUObjectGlobals: Created PersistentFrame Addr=0x00000172760683b0, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.SKEL_Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.23.49:197][679]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000172760683b0, Size=4
+[2019.06.15-18.23.49:197][679]LogUObjectGlobals: Created PersistentFrame Addr=0x00000172760683b0, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pyramid_Blueprint_C_45:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.23.49:199][679]LogUObjectGlobals: Created PersistentFrame Addr=0x000001727606bf58, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.SKEL_Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.24.18:011][392]BlueprintLog: New page: Compile Pyramid_Blueprint
+[2019.06.15-18.24.18:017][392]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001727606bf58, Size=4
+[2019.06.15-18.24.18:017][392]LogUObjectGlobals: Created PersistentFrame Addr=0x000001727627b490, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pyramid_Blueprint_C_47:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.24.18:023][392]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001726a9049a8, Size=8
+[2019.06.15-18.24.18:023][392]LogUObjectGlobals: Created PersistentFrame Addr=0x000001727627bd90, Size=8, Pyramid_Blueprint_C_5 Function /Engine/Transient.REINST_Pyramid_Blueprint_C_49:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.24.18:026][392]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017276279768, Size=8, Default__Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.24.18:225][392]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001727627b490, Size=4
+[2019.06.15-18.24.18:225][392]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001726a904d20, Size=8
+[2019.06.15-18.24.22:421][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Peter/Pyramid_Blueprint" FILE="../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset" SILENT=true
+[2019.06.15-18.24.22:525][630]LogSavePackage: Save=73.12ms
+[2019.06.15-18.24.22:525][630]LogSavePackage: Moving '../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Saved/Pyramid_Blueprint92CF96B74DBD75FE17FFB388CCDB7D72.tmp' to '../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset'
+[2019.06.15-18.24.22:548][630]LogSavePackage: Display: Finished SavePackage ../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset
+[2019.06.15-18.24.28:313][956]LogAIModule: Creating AISystem for world Test_Level
+[2019.06.15-18.24.28:337][956]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001727627bd90, Size=8
+[2019.06.15-18.24.28:365][956]Cmd: MAP LOAD FILE="../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Test_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.15-18.24.28:366][956]LightingResults: New page: Lighting Build
+[2019.06.15-18.24.28:366][956]LoadErrors: New page: Loading map: Test_Level.umap
+[2019.06.15-18.24.28:382][956]MapCheck: New page: Map Check
+[2019.06.15-18.24.28:382][956]LightingResults: New page: Lighting Build
+[2019.06.15-18.24.28:413][956]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000172760683b0, Size=4
+[2019.06.15-18.24.28:413][956]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017276068f28, Size=4
+[2019.06.15-18.24.28:413][956]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017271cddf00, Size=4
+[2019.06.15-18.24.28:413][956]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017273c953b0, Size=4
+[2019.06.15-18.24.28:413][956]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017273c95928, Size=4
+[2019.06.15-18.24.28:413][956]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017277207de0, Size=4
+[2019.06.15-18.24.28:414][956]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017271cdd8f0, Size=4
+[2019.06.15-18.24.28:424][956]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.15-18.24.28:463][956]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.15-18.24.29:704][956]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,241.769ms to complete.
+[2019.06.15-18.24.29:707][956]LogFileHelpers: Loading map 'Test_Level' took 1.359
+[2019.06.15-18.24.32:057][ 95]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.15-18.24.32:114][ 95]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-18.24.32:122][ 95]PIE: New page: PIE session: Test_Level (Jun 15, 2019, 10:24:32 AM)
+[2019.06.15-18.24.32:122][ 95]LogPlayLevel: Creating play world package: /Game/Peter/UEDPIE_0_Test_Level
+[2019.06.15-18.24.32:136][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013848s)
+[2019.06.15-18.24.32:137][ 95]LogAIModule: Creating AISystem for world Test_Level
+[2019.06.15-18.24.32:137][ 95]LogPlayLevel: PIE: World Init took: (0.001760s)
+[2019.06.15-18.24.32:137][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Peter/Test_Level.Test_Level to /Game/Peter/UEDPIE_0_Test_Level.Test_Level (0.016010s)
+[2019.06.15-18.24.32:216][ 95]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.06.15-18.24.32:231][ 95]LogInit: FAudioDevice initialized.
+[2019.06.15-18.24.32:281][ 95]LogLoad: Game class is 'GameModeBase'
+[2019.06.15-18.24.32:297][ 95]LogWorld: Bringing World /Game/Peter/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2019.06.15-14.24.32
+[2019.06.15-18.24.32:297][ 95]LogWorld: Bringing up level for play took: 0.001675
+[2019.06.15-18.24.32:434][ 95]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2019.06.15-18.24.32:450][ 95]PIE: Play in editor start time for /Game/Peter/UEDPIE_0_Test_Level -0.593
+[2019.06.15-18.25.29:135][390]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017275e7f918, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.SKEL_Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.25.37:579][890]BlueprintLog: New page: Compile Pyramid_Blueprint
+[2019.06.15-18.25.37:584][890]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017275e7f918, Size=4
+[2019.06.15-18.25.37:584][890]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017275e7f918, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pyramid_Blueprint_C_53:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.25.37:588][890]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017276279768, Size=8
+[2019.06.15-18.25.37:588][890]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017275e7e508, Size=8, Default__Pyramid_Blueprint_C Function /Engine/Transient.REINST_Pyramid_Blueprint_C_55:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.25.37:590][890]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017275e7f258, Size=8, Default__Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.25.37:842][890]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017275e7f918, Size=4
+[2019.06.15-18.25.38:688][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Peter/Pyramid_Blueprint" FILE="../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset" SILENT=true
+[2019.06.15-18.25.38:718][933]LogSavePackage: Save=26.93ms
+[2019.06.15-18.25.38:718][933]LogSavePackage: Moving '../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Saved/Pyramid_BlueprintA5A9949E4CE1893E37DD3A9B1EDE30D0.tmp' to '../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset'
+[2019.06.15-18.25.38:722][933]LogSavePackage: Display: Finished SavePackage ../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset
+[2019.06.15-18.27.39:123][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Peter/Pyramid_Blueprint" FILE="../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset" SILENT=true
+[2019.06.15-18.27.39:146][387]LogSavePackage: Save=19.04ms
+[2019.06.15-18.27.39:146][387]LogSavePackage: Moving '../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Saved/Pyramid_Blueprint17ACDB574C081E24D4C3C489A014F8FE.tmp' to '../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset'
+[2019.06.15-18.27.39:149][387]LogSavePackage: Display: Finished SavePackage ../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset
+[2019.06.15-18.29.05:969][577]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017275e7fcc0, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.SKEL_Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.29.46:243][973]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017275e7fcc0, Size=4
+[2019.06.15-18.29.46:243][973]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017275e7fcc0, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pyramid_Blueprint_C_59:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.29.46:244][973]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017275e7e188, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.SKEL_Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.30.01:519][881]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017275e7e188, Size=4
+[2019.06.15-18.30.01:519][881]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017275e7e188, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pyramid_Blueprint_C_61:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.30.01:521][881]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017275e7d218, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.SKEL_Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.30.07:407][231]BlueprintLog: New page: Compile Pyramid_Blueprint
+[2019.06.15-18.30.07:412][231]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017275e7d218, Size=4
+[2019.06.15-18.30.07:412][231]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017275e7d218, Size=4, Default__SKEL_Pyramid_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pyramid_Blueprint_C_63:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.30.07:416][231]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017275e7f258, Size=8
+[2019.06.15-18.30.07:416][231]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017275e7f258, Size=8, Pyramid_Blueprint_C_8 Function /Engine/Transient.REINST_Pyramid_Blueprint_C_65:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.30.07:418][231]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017275e7edd0, Size=8, Default__Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.30.07:679][231]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017275e7e508, Size=8
+[2019.06.15-18.30.07:679][231]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017275e7d218, Size=4
+[2019.06.15-18.31.59:142][744]BlueprintLog: New page: Compile Pyramid_Blueprint
+[2019.06.15-18.31.59:155][744]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017275e7edd0, Size=8
+[2019.06.15-18.31.59:155][744]LogUObjectGlobals: Created PersistentFrame Addr=0x000001726a785b58, Size=8, Default__Pyramid_Blueprint_C Function /Engine/Transient.REINST_Pyramid_Blueprint_C_69:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.31.59:158][744]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017280ffeef0, Size=16, Default__Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.31.59:416][744]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017275e7f258, Size=8
+[2019.06.15-18.32.02:108][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Peter/Pyramid_Blueprint" FILE="../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset" SILENT=true
+[2019.06.15-18.32.02:150][898]LogSavePackage: Save=32.91ms
+[2019.06.15-18.32.02:150][898]LogSavePackage: Moving '../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Saved/Pyramid_Blueprint19A99222453C983103F4D39EFDBE9E8C.tmp' to '../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset'
+[2019.06.15-18.32.02:154][898]LogSavePackage: Display: Finished SavePackage ../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset
+[2019.06.15-18.32.04:585][ 44]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.15-18.32.04:604][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-18.32.04:605][ 44]PIE: New page: PIE session: Test_Level (Jun 15, 2019, 10:32:04 AM)
+[2019.06.15-18.32.04:605][ 44]LogPlayLevel: Creating play world package: /Game/Peter/UEDPIE_0_Test_Level
+[2019.06.15-18.32.04:607][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002183s)
+[2019.06.15-18.32.04:607][ 44]LogAIModule: Creating AISystem for world Test_Level
+[2019.06.15-18.32.04:608][ 44]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2019.06.15-18.32.04:608][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Peter/Test_Level.Test_Level to /Game/Peter/UEDPIE_0_Test_Level.Test_Level (0.002903s)
+[2019.06.15-18.32.04:625][ 44]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001726a785b58, Size=8
+[2019.06.15-18.32.04:641][ 44]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.06.15-18.32.04:653][ 44]LogInit: FAudioDevice initialized.
+[2019.06.15-18.32.04:687][ 44]LogLoad: Game class is 'GameModeBase'
+[2019.06.15-18.32.04:689][ 44]LogWorld: Bringing World /Game/Peter/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2019.06.15-14.32.04
+[2019.06.15-18.32.04:689][ 44]LogWorld: Bringing up level for play took: 0.000946
+[2019.06.15-18.32.04:690][ 44]PIE: Play in editor start time for /Game/Peter/UEDPIE_0_Test_Level -0.353
+[2019.06.15-18.32.05:581][ 97]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:597][ 98]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:614][ 99]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:631][100]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:647][101]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:664][102]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:681][103]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:698][104]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:714][105]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:731][106]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:748][107]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:764][108]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:781][109]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:798][110]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:815][111]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:831][112]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:848][113]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:865][114]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:882][115]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:898][116]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:915][117]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:932][118]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:948][119]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:964][120]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:981][121]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.05:998][122]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:014][123]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:031][124]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:048][125]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:064][126]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:081][127]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:098][128]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:114][129]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:131][130]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:148][131]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:165][132]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:181][133]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:198][134]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:215][135]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:231][136]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:248][137]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:265][138]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:281][139]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:298][140]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:315][141]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:332][142]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:348][143]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:365][144]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:381][145]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:397][146]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:414][147]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:431][148]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:448][149]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:464][150]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:481][151]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:498][152]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:514][153]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:531][154]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:548][155]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:565][156]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:581][157]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:598][158]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:615][159]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:632][160]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:648][161]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:665][162]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:681][163]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:698][164]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:715][165]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:731][166]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:748][167]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:765][168]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:781][169]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:798][170]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:815][171]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:832][172]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:848][173]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:865][174]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:882][175]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:897][176]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:914][177]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:931][178]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:948][179]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:964][180]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:981][181]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.06:998][182]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:014][183]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:031][184]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:048][185]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:065][186]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:081][187]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:098][188]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:115][189]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:131][190]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:148][191]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:165][192]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:182][193]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:198][194]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:215][195]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:232][196]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:248][197]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:264][198]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:281][199]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:297][200]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:314][201]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:331][202]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:348][203]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:364][204]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:381][205]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:398][206]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:414][207]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:431][208]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:448][209]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:465][210]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:481][211]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:498][212]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:515][213]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:532][214]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:548][215]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:565][216]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:582][217]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:598][218]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:615][219]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:632][220]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:647][221]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:664][222]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:681][223]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:698][224]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:714][225]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:731][226]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:748][227]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:764][228]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:781][229]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:798][230]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:815][231]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:831][232]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:848][233]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:865][234]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:881][235]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:898][236]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:915][237]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:932][238]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:948][239]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:965][240]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:982][241]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.07:998][242]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:015][243]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:031][244]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:047][245]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:064][246]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:081][247]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:098][248]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:115][249]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:131][250]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:148][251]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:165][252]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:181][253]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:198][254]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:215][255]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:232][256]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:248][257]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:265][258]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:282][259]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:298][260]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:315][261]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:332][262]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:348][263]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:364][264]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:382][265]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:398][266]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:414][267]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:431][268]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:448][269]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:465][270]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:481][271]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:498][272]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:515][273]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:532][274]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:548][275]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:565][276]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:582][277]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:598][278]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:615][279]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:632][280]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:648][281]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:665][282]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:682][283]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.08:698][284]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.09:587][337]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.26:656][287]BlueprintLog: New page: Compile Pyramid_Blueprint
+[2019.06.15-18.32.26:670][287]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017280ffeef0, Size=16
+[2019.06.15-18.32.26:670][287]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017276f6abf0, Size=16, Default__Pyramid_Blueprint_C Function /Engine/Transient.REINST_Pyramid_Blueprint_C_73:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.32.26:673][287]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017276f6add0, Size=16, Default__Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.32.27:454][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Peter/Pyramid_Blueprint" FILE="../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset" SILENT=true
+[2019.06.15-18.32.27:491][310]LogSavePackage: Save=33.89ms
+[2019.06.15-18.32.27:491][310]LogSavePackage: Moving '../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Saved/Pyramid_Blueprint7E55665D4B80CA00990C5DB0A1ECD634.tmp' to '../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset'
+[2019.06.15-18.32.27:495][310]LogSavePackage: Display: Finished SavePackage ../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset
+[2019.06.15-18.32.30:460][431]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.15-18.32.30:477][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-18.32.30:477][431]PIE: New page: PIE session: Test_Level (Jun 15, 2019, 10:32:30 AM)
+[2019.06.15-18.32.30:477][431]LogPlayLevel: Creating play world package: /Game/Peter/UEDPIE_0_Test_Level
+[2019.06.15-18.32.30:479][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001996s)
+[2019.06.15-18.32.30:480][431]LogAIModule: Creating AISystem for world Test_Level
+[2019.06.15-18.32.30:480][431]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2019.06.15-18.32.30:480][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Peter/Test_Level.Test_Level to /Game/Peter/UEDPIE_0_Test_Level.Test_Level (0.002663s)
+[2019.06.15-18.32.30:497][431]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017276f6abf0, Size=16
+[2019.06.15-18.32.30:511][431]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.06.15-18.32.30:522][431]LogInit: FAudioDevice initialized.
+[2019.06.15-18.32.30:556][431]LogLoad: Game class is 'GameModeBase'
+[2019.06.15-18.32.30:558][431]LogWorld: Bringing World /Game/Peter/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2019.06.15-14.32.30
+[2019.06.15-18.32.30:558][431]LogWorld: Bringing up level for play took: 0.000835
+[2019.06.15-18.32.30:559][431]PIE: Play in editor start time for /Game/Peter/UEDPIE_0_Test_Level -0.484
+[2019.06.15-18.32.31:450][484]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.32:451][544]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.33:450][604]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.34:450][664]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.35:450][724]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.36:451][784]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.37:451][844]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.38:451][904]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.39:453][964]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.52:593][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Peter/Pyramid_Blueprint" FILE="../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset" SILENT=true
+[2019.06.15-18.32.52:629][601]LogSavePackage: Save=32.08ms
+[2019.06.15-18.32.52:629][601]LogSavePackage: Moving '../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Saved/Pyramid_Blueprint44BEE9684D1C7CF1BB2E6285656FC970.tmp' to '../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset'
+[2019.06.15-18.32.52:633][601]LogSavePackage: Display: Finished SavePackage ../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Pyramid_Blueprint.uasset
+[2019.06.15-18.32.53:556][654]BlueprintLog: New page: Compile Pyramid_Blueprint
+[2019.06.15-18.32.53:568][654]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017276f6add0, Size=16
+[2019.06.15-18.32.53:568][654]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017275ee70d0, Size=16, Default__Pyramid_Blueprint_C Function /Engine/Transient.REINST_Pyramid_Blueprint_C_77:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.32.53:571][654]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017275ee5c80, Size=16, Default__Pyramid_Blueprint_C Function /Game/Peter/Pyramid_Blueprint.Pyramid_Blueprint_C:ExecuteUbergraph_Pyramid_Blueprint
+[2019.06.15-18.32.56:873][834]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.15-18.32.56:890][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-18.32.56:890][834]PIE: New page: PIE session: Test_Level (Jun 15, 2019, 10:32:56 AM)
+[2019.06.15-18.32.56:890][834]LogPlayLevel: Creating play world package: /Game/Peter/UEDPIE_0_Test_Level
+[2019.06.15-18.32.56:893][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002359s)
+[2019.06.15-18.32.56:893][834]LogAIModule: Creating AISystem for world Test_Level
+[2019.06.15-18.32.56:893][834]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2019.06.15-18.32.56:893][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Peter/Test_Level.Test_Level to /Game/Peter/UEDPIE_0_Test_Level.Test_Level (0.002957s)
+[2019.06.15-18.32.56:911][834]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017275ee70d0, Size=16
+[2019.06.15-18.32.56:926][834]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.06.15-18.32.56:937][834]LogInit: FAudioDevice initialized.
+[2019.06.15-18.32.56:970][834]LogLoad: Game class is 'GameModeBase'
+[2019.06.15-18.32.56:972][834]LogWorld: Bringing World /Game/Peter/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2019.06.15-14.32.56
+[2019.06.15-18.32.56:972][834]LogWorld: Bringing up level for play took: 0.001006
+[2019.06.15-18.32.56:973][834]PIE: Play in editor start time for /Game/Peter/UEDPIE_0_Test_Level -0.07
+[2019.06.15-18.32.57:865][887]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.58:865][947]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.32.59:865][  7]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.33.00:866][ 67]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.33.01:865][127]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.33.02:866][187]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.33.03:866][247]LogBlueprintUserMessages: [Pyramid_Blueprint] Hello
+[2019.06.15-18.34.31:722][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Peter/Test_Level" FILE="../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Test_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.06.15-18.34.31:781][415]LogSavePackage: Save=32.10ms
+[2019.06.15-18.34.31:781][415]LogSavePackage: Moving '../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Saved/Test_Level95516A124A1D731A331B2C89EC43CD74.tmp' to '../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Test_Level.umap'
+[2019.06.15-18.34.31:785][415]LogSavePackage: Display: Finished SavePackage ../../../../../../dev/XR_Brain_Jam_2019/GFC2/GFC2Project/Content/Peter/Test_Level.umap
