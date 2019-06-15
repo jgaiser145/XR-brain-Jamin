@@ -1,4 +1,4 @@
-﻿Log file open, 06/15/19 10:18:03
+﻿Log file open, 06/15/19 11:44:52
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GFC2Project
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1811491851) SRandInit(-1811491850).
+LogInit: Display: RandInit(-297919744) SRandInit(-297919743).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.271075
+LogStats: Stats thread started at 0.277140
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  1.004s to configure plugins.
+LogStreaming: Display: Took  0.893s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -188,7 +188,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am aballinas (149.31.202.203:0)
+LogInit: WinSock: I am DESKTOP-4BGP68M (149.31.140.210:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -216,190 +216,285 @@ LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line: -EpicPortal  -epicusername="Airyukun" -epicuserid=dc67e7fd81254966a0b55743d5f91730 -epiclocale=en-US
+LogInit: Command Line: -EpicPortal  -epicusername="Chi.L." -epicuserid=6d9d82a823194cffabc845f5b2b62518 -epiclocale=en-US
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.06.15-14.18.04:749][  0]LogInit: Selected Device Profile: [Windows]
-[2019.06.15-14.18.04:749][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.06.15-14.18.04:761][  0]LogInit: Computer: ABALLINAS
-[2019.06.15-14.18.04:761][  0]LogInit: User: Anthony
-[2019.06.15-14.18.04:761][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.06.15-14.18.04:761][  0]LogInit: High frequency timer resolution =2.648438 MHz
-[2019.06.15-14.18.04:762][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.06.15-14.18.04:762][  0]LogMemory: Platform Memory Stats for Windows
-[2019.06.15-14.18.04:762][  0]LogMemory: Process Physical Memory: 274.11 MB used, 274.11 MB peak
-[2019.06.15-14.18.04:762][  0]LogMemory: Process Virtual Memory: 265.00 MB used, 265.00 MB peak
-[2019.06.15-14.18.04:762][  0]LogMemory: Physical Memory: 11853.11 MB used,  20779.41 MB free, 32632.52 MB total
-[2019.06.15-14.18.04:762][  0]LogMemory: Virtual Memory: 699.05 MB used,  20779.41 MB free, 134217728.00 MB total
-[2019.06.15-14.18.04:783][  0]LogInit: Using OS detected language (en-US).
-[2019.06.15-14.18.04:783][  0]LogInit: Using OS detected locale (en-US).
-[2019.06.15-14.18.04:786][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.06.15-14.18.05:161][  0]LogStreaming: Display: Took  0.378s to EndInitTextLocalization.
-[2019.06.15-14.18.05:184][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.06.15-14.18.05:184][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.06.15-14.18.05:380][  0]LogD3D11RHI: D3D11 adapters:
-[2019.06.15-14.18.05:445][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M' (Feature Level 11_0)
-[2019.06.15-14.18.05:445][  0]LogD3D11RHI:       8144/0/16316 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.06.15-14.18.05:457][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2019.06.15-14.18.05:457][  0]LogD3D11RHI:       128/0/16316 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.06.15-14.18.05:459][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.06.15-14.18.05:459][  0]LogD3D11RHI:       0/0/16316 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.06.15-14.18.05:459][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.06.15-14.18.05:467][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.06.15-14.18.05:467][  0]LogD3D11RHI:     GPU DeviceId: 0x13d7 (for the marketing name, search the web for "GPU Device Id")
-[2019.06.15-14.18.05:467][  0]LogWindows: EnumDisplayDevices:
-[2019.06.15-14.18.05:467][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2019.06.15-14.18.05:467][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.06.15-14.18.05:467][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.06.15-14.18.05:468][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
-[2019.06.15-14.18.05:468][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.06.15-14.18.05:468][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M
-[2019.06.15-14.18.05:468][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.06.15-14.18.05:468][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.06.15-14.18.05:468][  0]LogRHI: Texture pool is 5701 MB (70% of 8144 MB)
-[2019.06.15-14.18.05:507][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.06.15-14.18.05:507][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.06.15-14.18.05:507][  0]LogD3D11RHI: Async texture creation enabled
-[2019.06.15-14.18.05:530][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.06.15-14.18.05:531][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Intermediate/Shaders/WorkingDirectory/17904/).
-[2019.06.15-14.18.05:531][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Anthony/AppData/Local/Temp/UnrealShaderWorkingDir/12AEB3754976F25188586885D2961BCF/'.
-[2019.06.15-14.18.05:740][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.06.15-14.18.05:753][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.06.15-14.18.05:766][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.06.15-14.18.05:779][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.06.15-14.18.05:792][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.06.15-14.18.05:805][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.06.15-14.18.05:818][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.06.15-14.18.05:831][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.06.15-14.18.05:837][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.06.15-14.18.05:848][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.06.15-14.18.05:860][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.06.15-14.18.05:872][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.06.15-14.18.05:883][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2019.06.15-14.18.05:894][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.06.15-14.18.05:906][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.06.15-14.18.05:929][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.06.15-14.18.05:929][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.06.15-14.18.05:940][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.15-14.18.05:941][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.06.15-14.18.05:977][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.06.15-14.18.05:988][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.06.15-14.18.05:999][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.06.15-14.18.06:011][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.06.15-14.18.06:023][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.06.15-14.18.06:036][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.06.15-14.18.06:036][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.06.15-14.18.06:141][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.06.15-14.18.06:141][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.06.15-14.18.06:141][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.06.15-14.18.06:822][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.06.15-14.18.06:880][  0]LogDerivedDataCache: Loaded boot cache 0.06s 74MB C:/Users/Anthony/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.06.15-14.18.06:880][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Anthony/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2019.06.15-14.18.06:880][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.06.15-14.18.06:880][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.06.15-14.18.06:880][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.06.15-14.18.06:880][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.06.15-14.18.06:894][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.06.15-14.18.06:907][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Anthony/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.06.15-14.18.06:907][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.06.15-14.18.06:907][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.06.15-14.18.06:918][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.06.15-14.18.06:919][  0]LogSlate: Using Freetype 2.6.0
-[2019.06.15-14.18.06:919][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.06.15-14.18.06:919][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.06.15-14.18.07:039][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
-[2019.06.15-14.18.07:375][  0]LogInit: Selected Device Profile: [Windows]
-[2019.06.15-14.18.07:510][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.06.15-14.18.07:513][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.06.15-14.18.07:513][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.06.15-14.18.07:513][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.06.15-14.18.07:513][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.06.15-14.18.07:513][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.06.15-14.18.07:544][  0]LogNetVersion: GFC2Project , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1727949735)
-[2019.06.15-14.18.07:991][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.121369 seconds
-[2019.06.15-14.18.07:996][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2019.06.15-14.18.07:996][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2019.06.15-14.18.07:996][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.06.15-14.18.09:501][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.06.15-14.18.09:528][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.06.15-14.18.09:857][  0]SourceControl: Source control is disabled
-[2019.06.15-14.18.10:736][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.06.15-14.18.10:887][  0]LogOcInput: OculusInput pre-init called
-[2019.06.15-14.18.10:986][  0]LogEngine: Initializing Engine...
-[2019.06.15-14.18.10:988][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.06.15-14.18.10:989][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.06.15-14.18.10:989][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.06.15-14.18.11:176][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.06.15-14.18.11:195][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.15-14.18.11:215][  0]LogInit: FAudioDevice initialized.
-[2019.06.15-14.18.11:341][  0]LogDerivedDataCache: Saved boot cache 0.13s 74MB C:/Users/Anthony/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.06.15-14.18.11:352][  0]LogInit: Texture streaming: Enabled
-[2019.06.15-14.18.11:367][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.06.15-14.18.11:382][  0]LogInit: Transaction tracking system initialized
-[2019.06.15-14.18.11:404][  0]BlueprintLog: New page: Editor Load
-[2019.06.15-14.18.11:524][  0]LocalizationService: Localization service is disabled
-[2019.06.15-14.18.11:609][  0]LogConsoleResponse: Display: 
-[2019.06.15-14.18.11:741][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/' took 0.01s
-[2019.06.15-14.18.11:741][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.06.15-14.18.11:741][  0]LogCook: Display: Mobile HDR setting 0
-[2019.06.15-14.18.11:741][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.06.15-14.18.11:741][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.06.15-14.18.11:741][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.06.15-14.18.12:076][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.06.15-14.18.12:076][  0]LightingResults: New page: Lighting Build
-[2019.06.15-14.18.12:079][  0]MapCheck: New page: Map Check
-[2019.06.15-14.18.12:079][  0]LightingResults: New page: Lighting Build
-[2019.06.15-14.18.12:248][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.06.15-14.18.12:254][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.06.15-14.18.12:264][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.06.15-14.18.12:315][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.014ms to complete.
-[2019.06.15-14.18.12:315][  0]LogFileHelpers: Loading map 'Template_Default' took 0.239
-[2019.06.15-14.18.12:451][  0]LogCollectionManager: Loaded 0 collections in 0.002264 seconds
-[2019.06.15-14.18.12:505][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Collections/' took 0.01s
-[2019.06.15-14.18.12:505][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Developers/Anthony/Collections/' took 0.01s
-[2019.06.15-14.18.12:505][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Collections/' took 0.01s
-[2019.06.15-14.18.12:505][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.06.15-14.18.12:517][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2452 classes and 558 folders.
-[2019.06.15-14.18.12:526][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.06.15-14.18.12:571][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.06.15-14.18.12:577][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.06.15-14.18.12:594][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.06.15-14.18.12:597][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.06.15-14.18.12:604][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.06.15-14.18.12:702][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
-[2019.06.15-14.18.12:782][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.06.15-14.18.12:797][  0]LogSlate: Window 'Tutorials' being destroyed
-[2019.06.15-14.18.12:825][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.06.15-14.18.12:825][  0]LogLoad: (Engine Initialization) Total time: 10.44 seconds
-[2019.06.15-14.18.12:825][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.06.15-14.18.12:834][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.06.15-14.18.12:850][  0]LogAssetRegistry: Asset discovery search completed in 5.8330 seconds
-[2019.06.15-14.18.12:851][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.06.15-14.18.12:851][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
-[2019.06.15-14.18.12:855][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.06.15-14.18.12:894][  0]LogSlate: Took 0.005047 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.06.15-14.18.16:252][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.15-14.18.24:715][412]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.06.15-14.18.24:737][412]LogAIModule: Creating AISystem for world Map1
-[2019.06.15-14.18.49:554][702]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Collections/' because it could not be accessed. Aborting watch request...
-[2019.06.15-14.18.49:554][702]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Developers/Anthony/Collections/' because it could not be accessed. Aborting watch request...
-[2019.06.15-14.18.49:555][702]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Anthony/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Collections/' because it could not be accessed. Aborting watch request...
-[2019.06.15-14.19.21:009][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.19/Engine/Content: 'C:/Program Files/Epic Games/UE_4.19/Engine/Content' is outside repository
-[2019.06.15-14.20.12:412][350]LogSlate: Window 'Submit Files' being destroyed
-[2019.06.15-14.20.12:691][350]LogSourceControl: commit successful: [master c507bad] added assets packs to the project such as lights, glass and some steampunk assets that we MAY or MAY NOT use.
-[2019.06.15-14.20.12:755][350]SourceControl: [master c507bad] added assets packs to the project such as lights, glass and some steampunk assets that we MAY or MAY NOT use.
-[2019.06.15-14.20.12:755][350]SourceControl:  1 file changed, 6 insertions(+), 4 deletions(-)
-[2019.06.15-14.20.12:761][350]SourceControl: Commited [master c507bad] added assets packs to the project such as lights, glass and some steampunk assets that we MAY or MAY NOT use..
-[2019.06.15-14.20.44:245][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.06.15-14.20.45:210][235]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.06.15-14.20.46:799][412]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.19/Engine/Content: 'C:/Program Files/Epic Games/UE_4.19/Engine/Content' is outside repository
-[2019.06.15-14.20.46:895][412]EditorErrors: Warning: No assets to check in!
-[2019.06.15-14.21.24:433][968]LogHttp: Warning: 00000290B399D900: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2019.06.15-14.21.24:433][968]LogHttp: Warning: 00000290B399D900: libcurl info message cache 0 (Connection 0 seems to be dead!)
-[2019.06.15-14.21.24:433][968]LogHttp: Warning: 00000290B399D900: libcurl info message cache 1 (Closing connection 0)
-[2019.06.15-14.21.24:433][968]LogHttp: Warning: 00000290B399D900: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
-[2019.06.15-14.21.24:433][968]LogHttp: Warning: 00000290B399D900: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
-[2019.06.15-14.21.24:433][968]LogHttp: Warning: 00000290B399D900: libcurl info message cache 4 (Closing connection 1)
+[2019.06.15-15.44.53:376][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.15-15.44.53:376][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.15-15.44.53:392][  0]LogInit: Computer: DESKTOP-4BGP68M
+[2019.06.15-15.44.53:392][  0]LogInit: User: Xun
+[2019.06.15-15.44.53:392][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.06.15-15.44.53:392][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.06.15-15.44.53:392][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.06.15-15.44.53:392][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.15-15.44.53:392][  0]LogMemory: Process Physical Memory: 281.36 MB used, 281.36 MB peak
+[2019.06.15-15.44.53:392][  0]LogMemory: Process Virtual Memory: 271.91 MB used, 271.91 MB peak
+[2019.06.15-15.44.53:392][  0]LogMemory: Physical Memory: 12412.77 MB used,  20224.45 MB free, 32637.21 MB total
+[2019.06.15-15.44.53:392][  0]LogMemory: Virtual Memory: 4852.79 MB used,  20224.45 MB free, 134217728.00 MB total
+[2019.06.15-15.44.53:711][  0]LogInit: Using OS detected language (en-US).
+[2019.06.15-15.44.53:712][  0]LogInit: Using OS detected locale (en-US).
+[2019.06.15-15.44.53:714][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.06.15-15.44.54:168][  0]LogStreaming: Display: Took  0.457s to EndInitTextLocalization.
+[2019.06.15-15.44.54:169][  0]LogInit: Setting process to per monitor DPI aware
+[2019.06.15-15.44.54:200][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.15-15.44.54:200][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.15-15.44.54:456][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.15-15.44.54:509][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.06.15-15.44.54:509][  0]LogD3D11RHI:       8081/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.06.15-15.44.54:533][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.06.15-15.44.54:533][  0]LogD3D11RHI:       128/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.06.15-15.44.54:535][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.15-15.44.54:535][  0]LogD3D11RHI:       0/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.15-15.44.54:535][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.15-15.44.54:543][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.15-15.44.54:543][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2019.06.15-15.44.54:543][  0]LogWindows: EnumDisplayDevices:
+[2019.06.15-15.44.54:543][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.06.15-15.44.54:543][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.06.15-15.44.54:543][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.06.15-15.44.54:543][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.06.15-15.44.54:543][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.06.15-15.44.54:544][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.06.15-15.44.54:544][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.06.15-15.44.54:544][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.06.15-15.44.54:544][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.06.15-15.44.54:544][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.06.15-15.44.54:544][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.06.15-15.44.54:544][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2019.06.15-15.44.54:583][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.06.15-15.44.54:583][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.06.15-15.44.54:583][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.15-15.44.54:595][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.06.15-15.44.54:639][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Intermediate/Shaders/WorkingDirectory/19652/).
+[2019.06.15-15.44.54:639][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Xun/AppData/Local/Temp/UnrealShaderWorkingDir/772D31B045AB97B92A9DCBB445DB3A3F/'.
+[2019.06.15-15.44.54:860][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.06.15-15.44.54:874][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.06.15-15.44.54:887][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.06.15-15.44.54:900][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.06.15-15.44.54:913][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.06.15-15.44.54:926][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.06.15-15.44.54:939][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.06.15-15.44.54:953][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.06.15-15.44.54:959][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.06.15-15.44.54:971][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.06.15-15.44.54:983][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.06.15-15.44.54:996][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.06.15-15.44.55:008][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.06.15-15.44.55:020][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.06.15-15.44.55:032][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.06.15-15.44.55:056][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.06.15-15.44.55:056][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.06.15-15.44.55:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.15-15.44.55:071][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.06.15-15.44.55:109][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.15-15.44.55:121][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.15-15.44.55:134][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.06.15-15.44.55:146][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.06.15-15.44.55:159][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.06.15-15.44.55:171][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.06.15-15.44.55:171][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.15-15.44.55:260][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.15-15.44.55:260][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.15-15.44.55:260][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.15-15.44.55:960][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.15-15.44.56:021][  0]LogDerivedDataCache: Loaded boot cache 0.06s 74MB C:/Users/Xun/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.06.15-15.44.56:021][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Xun/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.06.15-15.44.56:021][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.15-15.44.56:021][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.15-15.44.56:021][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.15-15.44.56:021][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.15-15.44.56:036][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.15-15.44.56:048][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Xun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.15-15.44.56:048][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.15-15.44.56:048][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.15-15.44.56:065][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.15-15.44.56:066][  0]LogSlate: Using Freetype 2.6.0
+[2019.06.15-15.44.56:067][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.15-15.44.56:067][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.15-15.44.56:191][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2019.06.15-15.44.56:486][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.15-15.44.56:622][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.06.15-15.44.56:624][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.06.15-15.44.56:624][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.15-15.44.56:624][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.06.15-15.44.56:624][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.06.15-15.44.56:624][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.06.15-15.44.56:653][  0]LogNetVersion: GFC2Project , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1727949735)
+[2019.06.15-15.44.57:099][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.095535 seconds
+[2019.06.15-15.44.57:104][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.06.15-15.44.57:104][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2019.06.15-15.44.57:104][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.15-15.44.58:589][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.15-15.44.58:617][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.15-15.44.58:951][  0]SourceControl: Source control is disabled
+[2019.06.15-15.45.00:122][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.15-15.45.00:349][  0]LogOcInput: OculusInput pre-init called
+[2019.06.15-15.45.00:447][  0]LogEngine: Initializing Engine...
+[2019.06.15-15.45.00:448][  0]LogHMD: Oculus plugin initialized. Version: 4.19.2-4033788+++UE4+Release-4.19, OVRPlugin: 1.21.0
+[2019.06.15-15.45.00:450][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.15-15.45.00:450][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.15-15.45.00:692][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.15-15.45.00:722][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.06.15-15.45.01:015][  0]LogInit: FAudioDevice initialized.
+[2019.06.15-15.45.01:059][  0]LogDerivedDataCache: Saved boot cache 0.04s 74MB C:/Users/Xun/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.06.15-15.45.01:077][  0]LogInit: Texture streaming: Enabled
+[2019.06.15-15.45.01:093][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.15-15.45.01:109][  0]LogInit: Transaction tracking system initialized
+[2019.06.15-15.45.01:133][  0]BlueprintLog: New page: Editor Load
+[2019.06.15-15.45.01:197][  0]LocalizationService: Localization service is disabled
+[2019.06.15-15.45.01:282][  0]LogConsoleResponse: Display: 
+[2019.06.15-15.45.01:450][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/' took 0.01s
+[2019.06.15-15.45.01:450][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.15-15.45.01:450][  0]LogCook: Display: Mobile HDR setting 0
+[2019.06.15-15.45.01:450][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.06.15-15.45.01:450][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.15-15.45.01:450][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.15-15.45.01:797][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.15-15.45.01:797][  0]LightingResults: New page: Lighting Build
+[2019.06.15-15.45.01:799][  0]MapCheck: New page: Map Check
+[2019.06.15-15.45.01:799][  0]LightingResults: New page: Lighting Build
+[2019.06.15-15.45.01:999][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.06.15-15.45.02:006][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.15-15.45.02:019][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.15-15.45.02:078][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 58.531ms to complete.
+[2019.06.15-15.45.02:078][  0]LogFileHelpers: Loading map 'Template_Default' took 0.281
+[2019.06.15-15.45.02:261][  0]LogCollectionManager: Loaded 0 collections in 0.001843 seconds
+[2019.06.15-15.45.02:306][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Collections/' took 0.01s
+[2019.06.15-15.45.02:306][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Developers/Xun/Collections/' took 0.01s
+[2019.06.15-15.45.02:306][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Collections/' took 0.01s
+[2019.06.15-15.45.02:306][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.06.15-15.45.02:320][  0]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 2452 classes and 558 folders.
+[2019.06.15-15.45.02:328][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.06.15-15.45.02:653][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.06.15-15.45.02:656][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.06.15-15.45.03:828][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.06.15-15.45.03:918][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.15-15.45.04:543][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GFC2Project
+[2019.06.15-15.45.04:543][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2019.06.15-15.45.04:543][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2019.06.15-15.45.04:543][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2019.06.15-15.45.04:543][  0]LogTemp: BranchPath = DESKTOP-4BGP68M/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-4BGP68M/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2019.06.15-15.45.04:543][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Xun\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.06.15-15.45.04:543][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.15-15.45.04:559][  0]LogSlate: Took 0.006562 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.15-15.45.04:714][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2019.06.15-15.45.04:819][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.06.15-15.45.04:819][  0]LogLoad: (Engine Initialization) Total time: 13.82 seconds
+[2019.06.15-15.45.04:819][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.15-15.45.04:837][  0]LogOcInput: OculusInput is initialized
+[2019.06.15-15.45.04:861][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.06.15-15.45.04:916][  1]LogAssetRegistry: Asset discovery search completed in 8.7482 seconds
+[2019.06.15-15.45.04:918][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.06.15-15.45.04:918][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2019.06.15-15.45.07:722][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-15.45.08:910][225]LogSlate: Took 0.005549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.15-15.45.15:856][628]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2019.06.15-15.45.23:099][951]LogSlate: Window 'Levels' being destroyed
+[2019.06.15-15.45.47:172][  0]LogSlate: Window 'Save Level As' being destroyed
+[2019.06.15-15.45.47:375][ 12]SourceControl: fatal: /Temp: '/Temp' is outside repository
+[2019.06.15-15.46.16:628][567]LogSlate: Window 'Save Level As' being destroyed
+[2019.06.15-15.46.16:693][567]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.15-15.46.16:705][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Xun/Sub_Xun" FILE="../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Xun/Sub_Xun.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.06.15-15.46.16:726][567]LogSavePackage: Save=7.72ms
+[2019.06.15-15.46.16:727][567]LogSavePackage: Moving '../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Sub_Xun0517F211428B7F1B3521E6BADEECABC3.tmp' to '../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Xun/Sub_Xun.umap'
+[2019.06.15-15.46.16:728][567]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Xun/Sub_Xun.umap
+[2019.06.15-15.46.16:878][567]LogFileHelpers: Saving map 'Sub_Xun' took 0.242
+[2019.06.15-15.46.16:951][571]SourceControl: fatal: /Temp: '/Temp' is outside repository
+[2019.06.15-15.46.53:164][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Xun/Sub_Xun" FILE="../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Xun/Sub_Xun.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.06.15-15.46.53:185][720]LogSavePackage: Save=6.72ms
+[2019.06.15-15.46.53:185][720]LogSavePackage: Moving '../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Sub_XunC2516B394093F7FDBCC06FAF02F6AECB.tmp' to '../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Xun/Sub_Xun.umap'
+[2019.06.15-15.46.53:186][720]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Xun/Sub_Xun.umap
+[2019.06.15-15.47.01:155][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-15.47.53:445][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-15.47.58:552][640]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-15.48.18:258][822]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2019.06.15-15.48.20:211][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.06.15-15.48.20:787][970]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2019.06.15-15.48.22:115][ 49]Cmd: DELETE
+[2019.06.15-15.48.22:115][ 49]Cmd: ACTOR DELETE
+[2019.06.15-15.48.22:122][ 49]LogEditorActor: Deleted Actor: Actor
+[2019.06.15-15.48.22:135][ 49]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2019.06.15-15.48.24:442][188]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-15.50.08:360][536]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2019.06.15-15.50.08:360][536]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Developers/Xun/Collections/' because it could not be accessed. Aborting watch request...
+[2019.06.15-15.50.08:361][536]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2019.06.15-15.50.49:281][ 14]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.19/Engine/Content: 'C:/Program Files/Epic Games/UE_4.19/Engine/Content' is outside repository
+[2019.06.15-15.50.49:372][ 14]EditorErrors: Warning: No assets to check in!
+[2019.06.15-15.50.52:229][177]SourceControl: fatal: /Temp: '/Temp' is outside repository
+[2019.06.15-15.51.00:808][177]LogTextFormatter: Warning: Failed to parse argument "ExistingAsset" as a number (using "0" as a fallback). Please check your format string for errors: "{ExistingAsset} already exists. Do you want to replace it?".
+[2019.06.15-15.51.02:617][177]LogSlate: Window 'Message' being destroyed
+[2019.06.15-15.51.02:624][177]LogSlate: Window 'Save Level As' being destroyed
+[2019.06.15-15.51.10:263][177]LogSlate: Window 'Message' being destroyed
+[2019.06.15-15.51.10:593][177]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.326 s
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: === Handled ensure: ===
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: 
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: Ensure condition failed: FPackageName::TryConvertFilenameToLongPackageName(DefaultLocation / FinalPackageFilename, DefaultPackagePath) [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\FileHelpers.cpp] [Line: 2639]
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: 
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: Stack: 
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x000000004177B706 UE4Editor-Core.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x00000000414DAE3A UE4Editor-Core.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x00000000414EECD6 UE4Editor-Core.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x000000003C5BD851 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x000000003C5BCA27 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x000000003C5E5462 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x0000000037B42CE2 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x0000000037B5C027 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x000000003D5D687F UE4Editor-Slate.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x000000003D6CF225 UE4Editor-Slate.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x000000003D6D5D48 UE4Editor-Slate.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x000000003D634422 UE4Editor-Slate.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x000000003D635A29 UE4Editor-Slate.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x000000003D6B0E65 UE4Editor-Slate.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x000000003D76B7F7 UE4Editor-Slate.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x000000003D7919E8 UE4Editor-Slate.dll!UnknownFunction []
+[2019.06.15-15.51.10:593][177]LogOutputDevice: Error: [Callstack] 0x000000003D6D7E3D UE4Editor-Slate.dll!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x000000003D5B485C UE4Editor-Slate.dll!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x000000003D587D75 UE4Editor-Slate.dll!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x000000003D61F617 UE4Editor-Slate.dll!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x000000003D607D0D UE4Editor-Slate.dll!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x000000003D5FB3E2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x00000000BA8EE69B UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x00000000BA8E1B78 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x00000000BA8F052C UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x00000000BA8DD679 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x00000000575DCA66 USER32.dll!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x00000000575DC582 USER32.dll!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x00000000BA8F1666 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x0000000002D35475 UE4Editor.exe!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x0000000002D46BD0 UE4Editor.exe!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x0000000002D46C4A UE4Editor.exe!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x0000000002D54177 UE4Editor.exe!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x0000000002D55B87 UE4Editor.exe!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x00000000D1BC7974 KERNEL32.DLL!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: [Callstack] 0x00000000D231A271 ntdll.dll!UnknownFunction []
+[2019.06.15-15.51.10:594][177]LogOutputDevice: Error: 
+[2019.06.15-15.51.10:604][177]LogStats:                SubmitErrorReport -  0.000 s
+[2019.06.15-15.51.11:031][177]LogStats:                    SendNewReport -  0.427 s
+[2019.06.15-15.51.11:031][177]LogStats:             FDebug::EnsureFailed -  0.764 s
+[2019.06.15-15.51.13:237][177]LogSlate: Window 'Save Level As' being destroyed
+[2019.06.15-15.51.13:455][190]SourceControl: fatal: /Temp: '/Temp' is outside repository
+[2019.06.15-15.51.19:921][440]LogSlate: Window 'Save Content' being destroyed
+[2019.06.15-15.51.20:094][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Xun/Sub_Xun" FILE="../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Xun/Sub_Xun.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.06.15-15.51.20:117][440]LogSavePackage: Save=9.35ms
+[2019.06.15-15.51.20:117][440]LogSavePackage: Moving '../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Sub_XunA51131FB45CA06136CA424966B55AB0E.tmp' to '../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Xun/Sub_Xun.umap'
+[2019.06.15-15.51.20:123][440]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Xun/Sub_Xun.umap
+[2019.06.15-15.51.20:269][440]LogFileHelpers: Saving map 'Sub_Xun' took 0.239
+[2019.06.15-15.51.27:070][440]LogSlate: Window 'Submit Files' being destroyed
+[2019.06.15-15.51.27:333][440]LogSourceControl: commit successful: [Xun_branch 4acfe6d] New sub level added
+[2019.06.15-15.51.27:392][440]SourceControl: [Xun_branch 4acfe6d] New sub level added
+[2019.06.15-15.51.27:392][440]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2019.06.15-15.51.27:392][440]SourceControl:  create mode 100644 GFC2/GFC2Project/Content/Xun/Sub_Xun.umap
+[2019.06.15-15.51.27:401][440]SourceControl: Commited [Xun_branch 4acfe6d] New sub level added.
+[2019.06.15-15.51.31:355][671]SourceControl: fatal: /Temp: '/Temp' is outside repository
+[2019.06.15-15.51.34:901][671]LogSlate: Window 'Save Level As' being destroyed
+[2019.06.15-15.51.35:044][679]SourceControl: fatal: /Temp: '/Temp' is outside repository
+[2019.06.15-15.51.36:663][776]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.19/Engine/Content: 'C:/Program Files/Epic Games/UE_4.19/Engine/Content' is outside repository
+[2019.06.15-15.51.36:746][776]EditorErrors: Warning: No assets to check in!
+[2019.06.15-16.01.18:246][217]LogSavePackage: Save=30.40ms
+[2019.06.15-16.01.18:246][217]LogSavePackage: Moving '../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Untitled_1_Auto1090F1DDA42433D2CB145FCAE190604FB.tmp' to '../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2019.06.15-16.01.18:248][217]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Xun/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2019.06.15-16.01.18:251][217]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.049
+[2019.06.15-16.01.18:251][217]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.049
