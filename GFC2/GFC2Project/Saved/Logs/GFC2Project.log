@@ -398,3 +398,304 @@ LogInit: Object subsystem initialized
 [2019.06.15-18.32.47:783][239]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2019.06.15-18.32.49:060][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.06.15-18.32.52:211][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.03.29:640][807]LogRenderer: Reallocating scene render targets to support 640x488 Format 10 NumSamples 1 (Frame:75011).
+[2019.06.15-19.03.29:682][808]LogRenderer: Reallocating scene render targets to support 640x556 Format 10 NumSamples 1 (Frame:75013).
+[2019.06.15-19.03.29:721][809]LogRenderer: Reallocating scene render targets to support 640x576 Format 10 NumSamples 1 (Frame:75015).
+[2019.06.15-19.03.29:760][810]LogRenderer: Reallocating scene render targets to support 640x580 Format 10 NumSamples 1 (Frame:75017).
+[2019.06.15-19.03.31:613][905]LogRenderer: Reallocating scene render targets to support 644x580 Format 10 NumSamples 1 (Frame:75118).
+[2019.06.15-19.03.31:648][906]LogRenderer: Reallocating scene render targets to support 676x580 Format 10 NumSamples 1 (Frame:75120).
+[2019.06.15-19.03.31:692][907]LogRenderer: Reallocating scene render targets to support 808x580 Format 10 NumSamples 1 (Frame:75122).
+[2019.06.15-19.03.31:733][908]LogRenderer: Reallocating scene render targets to support 976x580 Format 10 NumSamples 1 (Frame:75124).
+[2019.06.15-19.03.31:770][909]LogRenderer: Reallocating scene render targets to support 1052x580 Format 10 NumSamples 1 (Frame:75126).
+[2019.06.15-19.03.38:425][306]LogLinker: Warning: Can't find file '/Game/Sound/bp_dumbBox'
+[2019.06.15-19.03.38:425][306]LogLinker: Warning: Can't find file for asset '/Game/Sound/bp_dumbBox' while loading ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap.
+[2019.06.15-19.03.38:426][306]LoadErrors: Error: /Game/Sound/lvl_Sound : Can't find file for asset. /Game/Sound/bp_dumbBox
+[2019.06.15-19.03.38:426][306]LogLinker: Warning: Can't find file '/Game/Sound/bp_dumbBox'
+[2019.06.15-19.03.38:426][306]LogLinker: Warning: Can't find file for asset '/Game/Sound/bp_dumbBox' while loading ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap.
+[2019.06.15-19.03.38:431][306]LogLinker: Warning: Can't find file '/Game/Sound/bp_dumbBox'
+[2019.06.15-19.03.38:431][306]LoadErrors: Failed to load /Game/Sound/bp_dumbBox.bp_dumbBox Referenced by bp_dumbBox
+[2019.06.15-19.03.38:432][306]LogLinker: Warning: Can't find file for asset '/Game/Sound/bp_dumbBox' while loading NULL.
+[2019.06.15-19.03.38:432][306]LogLinker: Warning: Can't find file '/Game/Sound/bp_dumbBox'
+[2019.06.15-19.03.38:432][306]LoadErrors: Failed to load /Game/Sound/bp_dumbBox.bp_dumbBox Referenced by bp_dumbBox2
+[2019.06.15-19.03.38:432][306]LogLinker: Warning: Can't find file for asset '/Game/Sound/bp_dumbBox' while loading NULL.
+[2019.06.15-19.03.38:432][306]LogLinker: Warning: Can't find file '/Game/Sound/bp_dumbBox'
+[2019.06.15-19.03.38:432][306]LoadErrors: Failed to load /Game/Sound/bp_dumbBox.bp_dumbBox Referenced by bp_dumbBox3
+[2019.06.15-19.03.38:432][306]LogLinker: Warning: Can't find file for asset '/Game/Sound/bp_dumbBox' while loading NULL.
+[2019.06.15-19.03.38:432][306]LogLinker: Warning: Can't find file '/Game/Sound/bp_dumbBox'
+[2019.06.15-19.03.38:432][306]LoadErrors: Failed to load /Game/Sound/bp_dumbBox.bp_dumbBox Referenced by bp_dumbBox4
+[2019.06.15-19.03.38:432][306]LogLinker: Warning: Can't find file for asset '/Game/Sound/bp_dumbBox' while loading NULL.
+[2019.06.15-19.03.38:433][306]LogLinker: Warning: Can't find file '/Game/Sound/bp_dumbBox'
+[2019.06.15-19.03.38:433][306]LoadErrors: Failed to load /Game/Sound/bp_dumbBox.bp_dumbBox Referenced by bp_dumbBox5
+[2019.06.15-19.03.38:433][306]LogLinker: Warning: Can't find file for asset '/Game/Sound/bp_dumbBox' while loading NULL.
+[2019.06.15-19.03.38:442][306]LogAIModule: Creating AISystem for world lvl_Sound
+[2019.06.15-19.03.38:460][306]Cmd: MAP LOAD FILE="../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.15-19.03.38:460][306]LightingResults: New page: Lighting Build
+[2019.06.15-19.03.38:461][306]LoadErrors: New page: Loading map: lvl_Sound.umap
+[2019.06.15-19.03.38:462][306]MapCheck: New page: Map Check
+[2019.06.15-19.03.38:462][306]LightingResults: New page: Lighting Build
+[2019.06.15-19.03.38:538][306]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.15-19.03.38:570][306]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.15-19.03.38:636][306]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 66.257ms to complete.
+[2019.06.15-19.03.38:637][306]LogFileHelpers: Loading map 'lvl_Sound' took 0.177
+[2019.06.15-19.03.40:108][393]LogEditorViewport: Clicking on Actor (LMB): bp_oneUnit_C (bp_oneUnit)
+[2019.06.15-19.03.40:845][436]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.06.15-19.03.42:011][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.03.50:638][986]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.15-19.03.50:650][986]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2019.06.15-19.03.55:138][253]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.15-19.03.55:138][253]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.15-19.03.55:138][253]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.15-19.03.55:138][253]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.15-19.03.55:149][253]LogEditorActor: Deleted 4 Actors (0.013 secs)
+[2019.06.15-19.03.58:542][453]LogEditorActor: Deleted Actor: bp_oneUnit_C
+[2019.06.15-19.03.58:553][453]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2019.06.15-19.04.27:296][171]LogActorFactory: Actor Factory created sm_GridRoom
+[2019.06.15-19.04.27:681][194]LogActorFactory: Actor Factory created sm_GridRoom
+[2019.06.15-19.04.28:810][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.04.47:011][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.04.56:650][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.04.59:047][ 55]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.06.15-19.05.09:908][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.05.09:991][711]Cmd: MODE GRID=1
+[2019.06.15-19.05.12:075][836]Cmd: DELETE
+[2019.06.15-19.05.12:075][836]Cmd: ACTOR DELETE
+[2019.06.15-19.05.12:076][836]LogEditorActor: Deleted Actor: bp_oneUnit_C
+[2019.06.15-19.05.12:092][836]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2019.06.15-19.05.17:911][184]Cmd: TRANSACTION UNDO
+[2019.06.15-19.05.17:911][184]LogEditorTransaction: Undo Move Actors
+[2019.06.15-19.05.47:289][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.05.59:700][679]LogSavePackage: Save=30.23ms
+[2019.06.15-19.05.59:700][679]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/lvl_Sound88261752448E964033A58292D49D1CB9.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap'
+[2019.06.15-19.05.59:707][679]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap
+[2019.06.15-19.06.11:199][233]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.06.15-19.06.19:704][654]LogSlate: Window 'Delete Assets' being destroyed
+[2019.06.15-19.06.24:758][897]LogSlate: Window 'Delete Assets' being destroyed
+[2019.06.15-19.06.25:102][897]SourceControl: Error: Updated 0 paths from the index
+[2019.06.15-19.06.25:212][897]SourceControl: rm 'GFC2/GFC2Project/Content/Sound/bp_NegativeCube.uasset'
+[2019.06.15-19.06.30:859][958]LogSlate: Window 'Delete Assets' being destroyed
+[2019.06.15-19.06.34:534][117]LogSlate: Window 'Delete Assets' being destroyed
+[2019.06.15-19.06.34:877][117]SourceControl: Error: Updated 0 paths from the index
+[2019.06.15-19.06.34:998][117]SourceControl: rm 'GFC2/GFC2Project/Content/Sound/bp_masterActor.uasset'
+[2019.06.15-19.06.38:448][199]LogSlate: Window 'Delete Assets' being destroyed
+[2019.06.15-19.06.39:297][199]SourceControl: Error: Updated 0 paths from the index
+[2019.06.15-19.06.39:421][199]SourceControl: rm 'GFC2/GFC2Project/Content/Sound/bp_positiveCube.uasset'
+[2019.06.15-19.06.46:180][491]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.06.15-19.07.02:839][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.07.03:152][491]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.06.15-19.07.03:444][491]LogUObjectGlobals: Created PersistentFrame Addr=0x00000224fae829b0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.06.15-19.07.03:444][491]LogUObjectGlobals: Created PersistentFrame Addr=0x00000224fae800e8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.06.15-19.07.17:561][229]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.06.15-19.07.19:432][340]BlueprintLog: New page: Compile pb_barrelScaled
+[2019.06.15-19.07.24:111][593]LogSlate: Window 'pb_barrelScaled*' being destroyed
+[2019.06.15-19.07.47:937][ 18]BlueprintLog: New page: Compile pb_barrelScaled
+[2019.06.15-19.07.48:750][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/pb_barrelScaled" FILE="../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/pb_barrelScaled.uasset" SILENT=true
+[2019.06.15-19.07.48:770][ 41]LogSavePackage: Save=17.63ms
+[2019.06.15-19.07.48:770][ 41]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/pb_barrelScaled7661371040EDB4805A0E8EA2012D5675.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/pb_barrelScaled.uasset'
+[2019.06.15-19.07.48:776][ 41]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/pb_barrelScaled.uasset
+[2019.06.15-19.07.53:650][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_GridRoom)
+[2019.06.15-19.07.53:749][328]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.06.15-19.07.56:868][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.07.57:407][547]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.06.15-19.07.59:451][650]LogRenderer: Reallocating scene render targets to support 1052x584 Format 10 NumSamples 1 (Frame:12503).
+[2019.06.15-19.08.07:029][103]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-19.08.21:937][997]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.08.29:737][460]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-19.08.29:798][460]LogSavePackage: Save=25.86ms
+[2019.06.15-19.08.29:798][460]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/lvl_Sound15E3D62F4C7CE6EF4BFC64B5687870DA.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap'
+[2019.06.15-19.08.29:803][460]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap
+[2019.06.15-19.08.32:774][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.08.50:130][735]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2019.06.15-19.08.50:151][735]LogStaticMesh: Building static mesh sm_barrelResized...
+[2019.06.15-19.08.50:156][735]LogStaticMesh: Built static mesh [0.01s] /Game/0-Shared/sm_barrelResized.sm_barrelResized
+[2019.06.15-19.08.51:785][830]LogRenderer: Reallocating scene render targets to support 1052x588 Format 10 NumSamples 1 (Frame:14340).
+[2019.06.15-19.08.54:506][973]LogActorFactory: Actor Factory created sm_barrelResized
+[2019.06.15-19.08.55:092][  8]LogActorFactory: Actor Factory created sm_barrelResized
+[2019.06.15-19.08.55:956][ 58]Cmd: DELETE
+[2019.06.15-19.08.55:956][ 58]Cmd: ACTOR DELETE
+[2019.06.15-19.08.55:957][ 58]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.15-19.08.55:980][ 58]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.06.15-19.08.59:507][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.09.02:915][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0-Shared/sm_barrelResized" FILE="../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/0-Shared/sm_barrelResized.uasset" SILENT=true
+[2019.06.15-19.09.02:933][452]LogSavePackage: Save=14.79ms
+[2019.06.15-19.09.02:933][452]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sm_barrelResizedDAF2A97F4C5A1DDFE11B75A1132A04E2.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/0-Shared/sm_barrelResized.uasset'
+[2019.06.15-19.09.02:939][452]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/0-Shared/sm_barrelResized.uasset
+[2019.06.15-19.09.10:184][863]LogSavePackage: Save=25.86ms
+[2019.06.15-19.09.10:184][863]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/lvl_Sound04BFE03F40C3D85C6AED909C386E98C1.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap'
+[2019.06.15-19.09.10:190][863]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap
+[2019.06.15-19.09.10:208][863]LogFileHelpers: Saving map 'lvl_Sound' took 0.155
+[2019.06.15-19.09.19:524][416]LogActorFactory: Actor Factory created SM_Container
+[2019.06.15-19.09.20:559][478]LogActorFactory: Actor Factory created SM_Container
+[2019.06.15-19.09.21:552][535]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.06.15-19.09.25:403][766]Cmd: DELETE
+[2019.06.15-19.09.25:403][766]Cmd: ACTOR DELETE
+[2019.06.15-19.09.25:404][766]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.15-19.09.25:424][766]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2019.06.15-19.09.28:023][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.09.42:291][756]LogStaticMesh: Building static mesh SM_Crate02...
+[2019.06.15-19.09.42:313][756]LogStaticMesh: Built static mesh [0.02s] /Game/scifi_kitbash/meshes/SM_Crate02.SM_Crate02
+[2019.06.15-19.09.42:413][761]LogActorFactory: Actor Factory created SM_Crate02
+[2019.06.15-19.09.43:114][803]LogActorFactory: Actor Factory created SM_Crate02
+[2019.06.15-19.09.55:355][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.10.06:711][216]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.06.15-19.10.25:884][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.10.30:333][633]Cmd: TRANSACTION UNDO
+[2019.06.15-19.10.30:333][633]LogEditorTransaction: Undo Set Scale
+[2019.06.15-19.10.43:074][396]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.06.15-19.10.45:308][473]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-19.10.47:524][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Crate02)
+[2019.06.15-19.10.53:982][993]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.06.15-19.10.57:834][224]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.06.15-19.11.06:925][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Crate02)
+[2019.06.15-19.11.16:961][367]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-19.11.24:019][790]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-19.11.24:090][790]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-19.11.24:157][790]LogSavePackage: Save=27.15ms
+[2019.06.15-19.11.24:157][790]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/lvl_Sound52FE2D2B4D6C7909779BB1B4AC149C03.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap'
+[2019.06.15-19.11.24:164][790]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap
+[2019.06.15-19.11.38:038][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.11.38:193][628]LogActorFactory: Actor Factory created SM_Container
+[2019.06.15-19.11.40:150][745]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-19.11.59:148][875]LogActorFactory: Actor Factory created SM_Ceiling_Corner03
+[2019.06.15-19.11.59:749][911]LogActorFactory: Actor Factory created SM_Ceiling_Corner03
+[2019.06.15-19.12.00:423][949]Cmd: TRANSACTION UNDO
+[2019.06.15-19.12.00:423][949]LogEditorTransaction: Undo Create Actors
+[2019.06.15-19.12.02:646][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.12.02:793][ 87]LogActorFactory: Actor Factory created SM_Crate01
+[2019.06.15-19.12.03:746][144]LogActorFactory: Actor Factory created SM_Crate01
+[2019.06.15-19.12.04:040][160]Cmd: TRANSACTION UNDO
+[2019.06.15-19.12.04:040][160]LogEditorTransaction: Undo Create Actors
+[2019.06.15-19.12.10:020][513]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.12.11:195][583]LogActorFactory: Actor Factory created SM_Container
+[2019.06.15-19.12.12:080][636]LogActorFactory: Actor Factory created SM_Container
+[2019.06.15-19.12.12:947][686]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.06.15-19.12.28:872][641]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.06.15-19.12.59:365][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.13.07:034][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.13.07:100][933]Cmd: MODE ROTGRID=0
+[2019.06.15-19.13.11:604][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.13.11:653][206]Cmd: MODE GRID=0
+[2019.06.15-19.13.17:043][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.13.17:124][534]Cmd: MODE SCALEGRID=0
+[2019.06.15-19.13.22:245][841]Cmd: TRANSACTION UNDO
+[2019.06.15-19.13.22:245][841]LogEditorTransaction: Undo Scale Actors
+[2019.06.15-19.13.23:420][911]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.13.23:777][932]Cmd: MODE SCALEGRID=1
+[2019.06.15-19.13.28:586][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.13.33:536][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.13.33:619][520]Cmd: MODE GRID=1
+[2019.06.15-19.13.34:355][564]Cmd: MODE ROTGRID=1
+[2019.06.15-19.13.35:139][602]LogSavePackage: Save=28.53ms
+[2019.06.15-19.13.35:139][602]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/lvl_SoundF2119BA44CC6AC55C9B349AB52E951D9.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap'
+[2019.06.15-19.13.35:145][602]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap
+[2019.06.15-19.21.10:427][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.21.25:084][701]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-19.21.27:517][847]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.06.15-19.21.34:518][267]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.21.42:033][617]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.06.15-19.22.20:497][836]BlueprintLog: New page: Compile bp_container1
+[2019.06.15-19.22.23:999][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/bp_container1" FILE="../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/bp_container1.uasset" SILENT=true
+[2019.06.15-19.22.24:020][961]LogSavePackage: Save=17.85ms
+[2019.06.15-19.22.24:020][961]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/bp_container144A5A07B44F2F712DC106FBC3C8357C0.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/bp_container1.uasset'
+[2019.06.15-19.22.24:025][961]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/bp_container1.uasset
+[2019.06.15-19.22.58:774][937]BlueprintLog: New page: Compile bp_container1
+[2019.06.15-19.23.03:493][ 96]LogSlate: Window 'bp_container1*' being destroyed
+[2019.06.15-19.23.09:277][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.23.30:474][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.23.46:624][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.23.47:158][714]BlueprintLog: New page: Compile bp_container1
+[2019.06.15-19.23.54:035][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.23.59:479][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.24.04:771][748]Cmd: TRANSACTION UNDO
+[2019.06.15-19.24.04:771][748]LogEditorTransaction: Undo Create Actors
+[2019.06.15-19.24.08:129][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.24.31:649][356]LogEditorViewport: Clicking on Actor (context menu): bp_container1_C (bp_container1)
+[2019.06.15-19.24.31:672][356]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-19.24.33:868][485]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-19.24.49:204][485]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2019.06.15-19.24.49:217][485]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-19.24.49:222][485]LogStaticMesh: Building static mesh sm_container-1...
+[2019.06.15-19.24.49:234][485]LogStaticMesh: Built static mesh [0.01s] /Game/0-Shared/sm_container-1.sm_container-1
+[2019.06.15-19.24.52:282][666]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-19.24.52:378][666]LogSavePackage: Save=35.13ms
+[2019.06.15-19.24.52:378][666]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/lvl_Sound_Auto182250C9944D4FA90AED099BB41DC0C03.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Autosaves/Game/Sound/lvl_Sound_Auto1.umap'
+[2019.06.15-19.24.52:381][666]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Autosaves/Game/Sound/lvl_Sound_Auto1.umap
+[2019.06.15-19.24.52:385][666]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Sound/lvl_Sound' took 0.082
+[2019.06.15-19.24.52:385][666]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.082
+[2019.06.15-19.24.52:388][666]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sound/bp_container1] ([1] browsable assets)...
+[2019.06.15-19.24.52:399][666]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Sound/bp_container1.bp_container1]
+[2019.06.15-19.24.52:399][666]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sound/bp_container1]
+[2019.06.15-19.24.52:427][666]LogSavePackage: Save=17.62ms
+[2019.06.15-19.24.52:427][666]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/bp_container1_Auto12E0767E34F59BE7D09DC8E98768591C0.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Autosaves/Game/Sound/bp_container1_Auto1.uasset'
+[2019.06.15-19.24.52:431][666]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Autosaves/Game/Sound/bp_container1_Auto1.uasset
+[2019.06.15-19.24.52:433][666]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/0-Shared/sm_container-1] ([1] browsable assets)...
+[2019.06.15-19.24.52:444][666]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/0-Shared/sm_container-1.sm_container-1]
+[2019.06.15-19.24.52:444][666]OBJ SavePackage: Finished generating thumbnails for package [/Game/0-Shared/sm_container-1]
+[2019.06.15-19.24.52:460][666]LogSavePackage: Save=13.40ms
+[2019.06.15-19.24.52:460][666]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sm_container-1_Auto1E505CB60447A87B1248EC9A5E23F054D.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Autosaves/Game/0-Shared/sm_container-1_Auto1.uasset'
+[2019.06.15-19.24.52:462][666]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/Autosaves/Game/0-Shared/sm_container-1_Auto1.uasset
+[2019.06.15-19.24.52:462][666]LogFileHelpers: Auto-saving content packages took 0.076
+[2019.06.15-19.24.52:982][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_GridRoom)
+[2019.06.15-19.24.53:658][734]LogEditorViewport: Clicking on Actor (LMB): bp_container1_C (bp_container1)
+[2019.06.15-19.24.54:861][805]Cmd: DELETE
+[2019.06.15-19.24.54:861][805]Cmd: ACTOR DELETE
+[2019.06.15-19.24.54:862][805]LogEditorActor: Deleted Actor: bp_container1_C
+[2019.06.15-19.24.54:883][805]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.06.15-19.24.55:357][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Container)
+[2019.06.15-19.24.55:477][839]Cmd: DELETE
+[2019.06.15-19.24.55:477][839]Cmd: ACTOR DELETE
+[2019.06.15-19.24.55:478][839]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.15-19.24.55:500][839]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.06.15-19.24.56:274][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Crate02)
+[2019.06.15-19.24.57:710][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.25.00:549][ 88]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.06.15-19.25.14:064][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/bp_container1" FILE="../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/bp_container1.uasset" SILENT=true
+[2019.06.15-19.25.14:081][869]LogSavePackage: Save=8.43ms
+[2019.06.15-19.25.14:081][869]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/bp_container131FA9A214C140B2C9ADBCF9C4F0505EF.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/bp_container1.uasset'
+[2019.06.15-19.25.14:086][869]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/bp_container1.uasset
+[2019.06.15-19.25.16:231][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/bp_container2" FILE="../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/bp_container2.uasset" SILENT=true
+[2019.06.15-19.25.16:241][992]LogSavePackage: Save=7.54ms
+[2019.06.15-19.25.16:241][992]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/bp_container2FECF05B04A73997C5294C4B1845DD05C.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/bp_container2.uasset'
+[2019.06.15-19.25.16:246][992]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/bp_container2.uasset
+[2019.06.15-19.25.17:773][ 67]LogSavePackage: Save=28.14ms
+[2019.06.15-19.25.17:773][ 67]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/lvl_Sound22C436FC4A7FFB0B5E1233AB72516EF9.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap'
+[2019.06.15-19.25.17:778][ 67]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap
+[2019.06.15-19.25.26:953][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.25.34:520][957]LogSlate: Window 'bp_container2*' being destroyed
+[2019.06.15-19.25.35:670][ 26]BlueprintLog: New page: Compile bp_container2
+[2019.06.15-19.25.57:009][229]BlueprintLog: New page: Compile bp_container2
+[2019.06.15-19.25.57:767][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/bp_container2" FILE="../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/bp_container2.uasset" SILENT=true
+[2019.06.15-19.25.57:797][255]LogSavePackage: Save=19.56ms
+[2019.06.15-19.25.57:798][255]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/bp_container27F8659764361FD3B974BB98AC6AFFA52.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/bp_container2.uasset'
+[2019.06.15-19.25.57:804][255]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/bp_container2.uasset
+[2019.06.15-19.25.58:889][311]LogSlate: Window 'bp_container2' being destroyed
+[2019.06.15-19.26.06:023][736]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.06.15-19.26.10:408][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.28.42:073][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.28.42:074][ 98]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.15-19.28.51:112][640]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.29.08:356][674]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-19.29.42:829][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.29.42:927][746]BlueprintLog: New page: Compile bp_container2
+[2019.06.15-19.30.04:844][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.30.13:675][566]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-19.30.13:761][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/bp_container2" FILE="../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/bp_container2.uasset" SILENT=true
+[2019.06.15-19.30.13:788][566]LogSavePackage: Save=16.83ms
+[2019.06.15-19.30.13:788][566]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/bp_container2E2F857304EF0DBA4ED056E8808BA273F.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/bp_container2.uasset'
+[2019.06.15-19.30.13:793][566]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/bp_container2.uasset
+[2019.06.15-19.30.14:484][607]BlueprintLog: New page: Compile bp_container2
+[2019.06.15-19.30.34:999][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.30.50:506][926]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2019.06.15-19.30.50:524][926]LogStaticMesh: Building static mesh sm_container2...
+[2019.06.15-19.30.50:527][926]LogStaticMesh: Built static mesh [0.00s] /Game/0-Shared/sm_container2.sm_container2
+[2019.06.15-19.30.52:556][ 37]LogSavePackage: Save=31.39ms
+[2019.06.15-19.30.52:556][ 37]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/lvl_Sound6ADDFCD34D2D09999BDB2296BB4F1A22.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap'
+[2019.06.15-19.30.52:563][ 37]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/Sound/lvl_Sound.umap
+[2019.06.15-19.31.22:684][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-19.31.28:334][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0-Shared/sm_container-1" FILE="../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/0-Shared/sm_container-1.uasset" SILENT=true
+[2019.06.15-19.31.28:351][165]LogSavePackage: Save=14.33ms
+[2019.06.15-19.31.28:351][165]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sm_container-1DD1772E74E2F39849E8EACA8E87D1830.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/0-Shared/sm_container-1.uasset'
+[2019.06.15-19.31.28:357][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/0-Shared/sm_container-1.uasset
+[2019.06.15-19.31.29:395][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0-Shared/sm_container2" FILE="../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/0-Shared/sm_container2.uasset" SILENT=true
+[2019.06.15-19.31.29:412][208]LogSavePackage: Save=13.76ms
+[2019.06.15-19.31.29:412][208]LogSavePackage: Moving '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Saved/sm_container20CD7364446B0FEF1C701AD985EE801BD.tmp' to '../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/0-Shared/sm_container2.uasset'
+[2019.06.15-19.31.29:417][208]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/swright/Documents/GitHub/XR-brain-Jamin/GFC2/GFC2Project/Content/0-Shared/sm_container2.uasset
