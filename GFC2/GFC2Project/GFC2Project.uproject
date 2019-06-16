@@ -7,10 +7,6 @@
 		{
 			"Name": "MixedRealityFramework",
 			"Enabled": true
-		},
-		{
-			"Name": "OnlineSubsystemOculus",
-			"Enabled": true
 		}
 	]
 }
